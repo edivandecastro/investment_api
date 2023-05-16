@@ -24,6 +24,9 @@ module InvestmentApi
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
+    config.i18n.default_locale = "pt-BR"
+    config.i18n.available_locales = %w(pt-BR en)
+
     config.generators do |g|
       g.test_framework :rspec, fixture: true
       g.fixture_replacement :factory_bot, dir: 'spec/factories'
