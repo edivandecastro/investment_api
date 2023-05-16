@@ -25,8 +25,7 @@ set :shared_dirs, fetch(:shared_dirs, []).push(
 
 set :shared_files, fetch(:shared_files, []).push(
   'config/database.yml',
-  'config/master.key',
-  'config/puma.rb'
+  'config/master.key'
 )
 
 task :ruby_version do
@@ -54,9 +53,6 @@ task :setup do
 
   command %(  mkdir -p "#{fetch(:deploy_to)}/shared/public/uploads"  )
   command %(  chmod g+rx,u+rwx "#{fetch(:deploy_to)}/shared/public/uploads"  )
-
-  command %(  touch "#{fetch(:deploy_to)}/shared/config/puma.rb"  )
-  command %(  echo "-----> Be sure to edit "shared/config/puma.rb"."  )
 end
 
 desc "Deploys the current version to the server."
@@ -72,8 +68,8 @@ task :deploy do
     invoke 'deploy:cleanup'
 
     on :launch do
-      invoke 'puma_restart'
-      invoke 'restart_nginx'
+      # invoke 'puma_restart'
+      # invoke 'restart_nginx'
     end
   end
 end
@@ -99,7 +95,7 @@ end
 desc 'Start Puma server'
 task :puma_start do
   invoke 'ruby_version'
-  command "cd #{fetch(:deploy_to)}/current && bundle exec puma -e production -C #{fetch(:deploy_to)}/shared/config/puma.rb"
+  command "cd #{fetch(:deploy_to)}/current && RAILS_ENV=production bundle exec rails s"
 end
 
 desc 'Stop Puma server'
@@ -119,16 +115,4 @@ task :restart_nginx do
   command 'sudo systemctl stop nginx'
   command 'sleep 10'
   command 'sudo systemctl start nginx'
-end
-
-desc 'Create database'
-task :db_create do
-  invoke 'ruby_version'
-  command 'rails db:create'
-end
-
-desc "Drop database"
-task :db_drop do
-  command "cd #{fetch(:deploy_to)}/current"
-  invoke 'rails:db_drop'
 end
