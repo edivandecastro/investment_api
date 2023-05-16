@@ -10,6 +10,14 @@ Por fim, é importante ressaltar que o sistema deve ser seguro e confiável, gar
 
 # System dependencies
 
-Ruby  3.2.1
+Ruby 3.2.1
 
 Rails 7.0.4.3
+
+# Deploy with mina
+
+Para executar o setup do deploy execute:
+
+`mina setup --trace`
+
+Lembrando que isso deve ser feito somente a primeira vez que irá ser realizado o deploy
