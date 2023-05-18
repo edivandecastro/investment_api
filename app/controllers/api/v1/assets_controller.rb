@@ -7,14 +7,17 @@ class Api::V1::AssetsController < Api::V1::ApplicationController
       root: :assets,
       each_serializer: Api::V1::AssetSerializer,
       meta: meta_attributes(assets),
-      meta_key: 'extra'
+      meta_key: "extra"
     })
   end
 
   def create
     asset = Api::V1::Asset.new(asset_params)
-    asset.save
-    render json: asset, root: :asset
+    if asset.save
+      render json: asset, root: :asset
+    else
+      render json: { errors: asset.errors }, status: :unprocessable_entity
+    end
   end
 
   private

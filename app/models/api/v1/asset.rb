@@ -3,7 +3,7 @@ module Api
     class Asset < ApplicationRecord
       belongs_to :country
 
-      validates :icon, :codes, :name, :description, :sector, :price, :country, presence: true
+      validates :icon, :codes, :name, :description, :sector, :price, presence: true
     end
   end
 end
