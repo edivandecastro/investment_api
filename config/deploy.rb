@@ -68,8 +68,8 @@ task :deploy do
     invoke 'deploy:cleanup'
 
     on :launch do
-      # invoke 'puma_restart'
-      # invoke 'restart_nginx'
+      invoke 'puma_restart'
+      invoke 'restart_nginx'
     end
   end
 end
@@ -95,19 +95,19 @@ end
 desc 'Start Puma server'
 task :puma_start do
   invoke 'ruby_version'
-  command "cd #{fetch(:deploy_to)}/current && RAILS_ENV=production bundle exec rails s"
+  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl start -F config/puma.rb"
 end
 
 desc 'Stop Puma server'
 task :puma_stop do
   invoke 'ruby_version'
-  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl -F #{fetch(:deploy_to)}/shared/config/puma.rb stop"
+  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl stop -F config/puma.rb"
 end
 
 desc 'Restart Puma server'
 task :puma_restart do
   invoke 'ruby_version'
-  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl -F #{fetch(:deploy_to)}/shared/config/puma.rb restart"
+  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl restart -F config/puma.rb"
 end
 
 desc 'Restart nginx service'
