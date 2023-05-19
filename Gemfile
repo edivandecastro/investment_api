@@ -12,6 +12,7 @@ gem "bootsnap", require: false
 gem "rack-cors"
 gem "active_model_serializers", "~> 0.10.13"
 gem "kaminari"
+gem "seedbank", "~> 0.5.0"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
