@@ -95,19 +95,19 @@ end
 desc 'Start Puma server'
 task :puma_start do
   invoke 'ruby_version'
-  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl start -F config/puma.rb"
+  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl start -e production -F config/puma.rb"
 end
 
 desc 'Stop Puma server'
 task :puma_stop do
   invoke 'ruby_version'
-  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl stop -F config/puma.rb"
+  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl stop -e production -F config/puma.rb"
 end
 
 desc 'Restart Puma server'
 task :puma_restart do
   invoke 'ruby_version'
-  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl restart -F config/puma.rb"
+  command "cd #{fetch(:deploy_to)}/current && bundle exec pumactl restart -e production -F config/puma.rb"
 end
 
 desc 'Restart nginx service'
