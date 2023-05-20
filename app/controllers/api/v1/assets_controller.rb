@@ -9,7 +9,7 @@ class Api::V1::AssetsController < Api::V1::ApplicationController
       root: :assets,
       each_serializer: Api::V1::AssetSerializer,
       meta: meta_attributes(assets),
-      meta_key: "extra"
+      meta_key: "metadata"
     })
   end
 

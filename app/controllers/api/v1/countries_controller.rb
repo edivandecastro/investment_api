@@ -7,7 +7,7 @@ class Api::V1::CountriesController < Api::V1::ApplicationController
       root: :countries,
       each_serializer: Api::V1::CountrySerializer,
       meta: meta_attributes(countries),
-      meta_key: 'extra'
+      meta_key: "metadata"
     })
   end
 

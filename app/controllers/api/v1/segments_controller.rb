@@ -9,7 +9,7 @@ class Api::V1::SegmentsController < Api::V1::ApplicationController
       root: :segments,
       each_serializer: Api::V1::SegmentSerializer,
       meta: meta_attributes(segments),
-      meta_key: 'extra'
+      meta_key: "metadata"
     })
   end
 
