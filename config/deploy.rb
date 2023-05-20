@@ -69,7 +69,6 @@ task :deploy do
 
     on :launch do
       invoke 'puma_restart'
-      invoke 'restart_nginx'
     end
   end
 end
