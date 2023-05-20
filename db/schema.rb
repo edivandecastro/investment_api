@@ -16,16 +16,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_19_222414) do
   enable_extension "plpgsql"
 
   create_table "assets", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
-    t.string "icon", null: false
-    t.string "codes", null: false
     t.string "name", null: false
-    t.string "description", null: false
-    t.string "sector", null: false
-    t.decimal "price", precision: 14, scale: 12, null: false
-    t.uuid "country_id", null: false
+    t.string "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["country_id"], name: "index_assets_on_country_id"
   end
 
   create_table "countries", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
@@ -58,7 +52,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_19_222414) do
     t.index ["segment_id"], name: "index_stocks_on_segment_id"
   end
 
-  add_foreign_key "assets", "countries"
   add_foreign_key "stocks", "assets"
   add_foreign_key "stocks", "countries"
   add_foreign_key "stocks", "segments"

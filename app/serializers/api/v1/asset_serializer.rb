@@ -1,9 +1,7 @@
 module Api
   module V1
     class AssetSerializer < ActiveModel::Serializer
-      attributes :id, :icon, :codes, :name, :description, :sector, :price
-
-      belongs_to :country
+      attributes :id, :name, :description
     end
   end
 end
