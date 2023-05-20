@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Api::V1::Segment, type: :model do
-    it "factory" do
+  it "factory" do
     expect(FactoryBot.build(:segment)).to be_valid
   end
 

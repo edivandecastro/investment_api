@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :countries
       resources :assets
       resources :segments
+      resources :stocks
     end
   end
 end

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_19_222230) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_19_222414) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
   enable_extension "plpgsql"
@@ -42,5 +42,24 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_19_222230) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "stocks", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "icon", null: false
+    t.string "name", null: false
+    t.string "description", null: false
+    t.string "acronym", null: false
+    t.integer "stock_type", null: false
+    t.uuid "segment_id", null: false
+    t.uuid "country_id", null: false
+    t.uuid "asset_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["asset_id"], name: "index_stocks_on_asset_id"
+    t.index ["country_id"], name: "index_stocks_on_country_id"
+    t.index ["segment_id"], name: "index_stocks_on_segment_id"
+  end
+
   add_foreign_key "assets", "countries"
+  add_foreign_key "stocks", "assets"
+  add_foreign_key "stocks", "countries"
+  add_foreign_key "stocks", "segments"
 end
