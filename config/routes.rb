@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :assets
       resources :segments
       resources :stocks
+      resources :user_stocks
     end
   end
 end
