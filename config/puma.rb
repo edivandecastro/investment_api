@@ -1,5 +1,3 @@
-require "puma/daemon"
-
 # Puma can serve each request in a thread from an internal thread pool.
 # The `threads` method setting takes two numbers: a minimum and maximum.
 # Any libraries that use thread pools should be configured to match
@@ -23,8 +21,6 @@ port ENV.fetch("PORT") { 3000 }
 #
 environment ENV.fetch("RAILS_ENV") { "development" }
 
-daemonize if ENV.fetch("RAILS_ENV", "production") == "production"
-
 # Specifies the `pidfile` that Puma will use.
 pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
@@ -42,8 +38,6 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 # process behavior so workers use less memory.
 #
 # preload_app!
-
-bind "unix://./tmp/sockets/puma.sock"
 
 # Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
