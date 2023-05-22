@@ -1,0 +1,19 @@
+databases:
+  - name: investment_api
+    databaseName: investment_api_production
+    user: investment_api
+    plan: free
+services:
+  - type: web
+    plan: free
+    name: investment_api
+    env: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -e production -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: investment_api
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
