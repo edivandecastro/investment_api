@@ -1,6 +1,6 @@
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'http://localhost:3000'
+    origins 'investment-api-3vvw.onrender.com'
 
     resource '*',
       headers: :any,
@@ -8,4 +8,4 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 end
 
-Rails.application.config.hosts << 'http://localhost:3000'
+Rails.application.config.hosts << 'investment-api-3vvw.onrender.com'
