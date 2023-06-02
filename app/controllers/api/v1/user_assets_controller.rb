@@ -6,7 +6,7 @@ class Api::V1::UserAssetsController < Api::V1::ApplicationController
 
     render({
       json: user_assets,
-      root: :user_assets,
+      root: :user_stocks,
       each_serializer: user_assets_serializer,
       meta: meta_attributes(user_assets),
       meta_key: "metadata"
@@ -17,14 +17,14 @@ class Api::V1::UserAssetsController < Api::V1::ApplicationController
     user_asset = Api::V1::UserAsset.new(user_asset_params)
 
     if user_asset.save
-      render json: user_asset, root: :user_asset
+      render json: user_asset, root: :user_stock
     else
       render json: { errors: user_asset.errors }, status: :unprocessable_entity
     end
   end
 
   def show
-    render json: @user_asset, root: :user_asset
+    render json: @user_asset, root: :user_stock
   end
 
   def destroy
@@ -33,7 +33,7 @@ class Api::V1::UserAssetsController < Api::V1::ApplicationController
 
   def update
     if @user_asset.update(user_asset_params)
-      render json: @user_asset, root: :clinic, status: :ok, location: @user_asset
+      render json: @user_asset, root: :user_stock, status: :ok, location: @user_asset
     else
       render json: { errors: @user_asset.errors }, status: :unprocessable_entity
     end
@@ -50,7 +50,7 @@ class Api::V1::UserAssetsController < Api::V1::ApplicationController
   def user_assets_serializer
     return Api::V1::UserStockFullSerializer if params[:user_id].nil?
 
-    Api::V1::UserAssetserializer
+    Api::V1::UserAssetSerializer
   end
 
   def set_user_asset

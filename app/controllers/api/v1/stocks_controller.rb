@@ -2,12 +2,12 @@ class Api::V1::StocksController < Api::V1::ApplicationController
   before_action :set_stock, only: [:show, :update, :destroy]
 
   def index
-    stocks = Api::V1::Stock.page(params[:page]).per(params[:limit])
+    stocks = user_assets_search.page(params[:page]).per(params[:limit])
 
     render({
       json: stocks,
-      root: :stocks,
-      each_serializer: Api::V1::StockSerializer,
+      root: root_key,
+      each_serializer: serialize_class,
       meta: meta_attributes(stocks),
       meta_key: "metadata"
     })
@@ -40,6 +40,22 @@ class Api::V1::StocksController < Api::V1::ApplicationController
   end
 
   private
+
+  def serialize_class
+    return Api::V1::StockSerializer if params[:user_id].nil?
+    Api::V1::UserAssetSerializer
+  end
+
+  def root_key
+    return :stocks if params[:user_id].nil?
+    :user_stocks
+  end
+
+  def user_assets_search
+    return Api::V1::Stock if params[:user_id].nil?
+
+    Api::V1::UserAsset.where(user_id: params[:user_id])
+  end
 
   def set_stock
     @stock = Api::V1::Stock.find(params[:id])
