@@ -1,6 +1,6 @@
 module Api
   module V1
-    class UserStock < ApplicationRecord
+    class UserAsset < ApplicationRecord
       belongs_to :user
       belongs_to :investible, polymorphic: true
 
