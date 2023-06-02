@@ -1,6 +1,6 @@
 module Api
   module V1
-    class UserStockFullSerializer < UserStockSerializer
+    class UserAssetFullSerializer < UserAssetSerializer
       belongs_to :user
     end
   end

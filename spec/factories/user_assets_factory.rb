@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :user_stock, class: Api::V1::UserStock do
+  factory :user_asset, class: Api::V1::UserAsset do
     user
     association :investible, factory: :stock
     balance { Faker::Commerce.price }

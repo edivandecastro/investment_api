@@ -5,9 +5,9 @@ Rails.application.routes.draw do
       resources :assets
       resources :segments
       resources :stocks
-      resources :user_stocks
+      resources :user_assets
       resources :users do
-        resources :user_stocks
+        resources :user_assets
       end
     end
   end

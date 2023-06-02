@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe Api::V1::UserStock, type: :model do
+RSpec.describe Api::V1::UserAsset, type: :model do
   it "factory" do
-    expect(FactoryBot.build(:user_stock)).to be_valid
+    expect(FactoryBot.build(:user_asset)).to be_valid
   end
 
   context "columns" do

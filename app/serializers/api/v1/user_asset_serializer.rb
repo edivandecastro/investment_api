@@ -1,6 +1,6 @@
 module Api
   module V1
-    class UserStockSerializer < ActiveModel::Serializer
+    class UserAssetSerializer < ActiveModel::Serializer
       attributes :id, :balance
 
       belongs_to :investible, key: :stock
