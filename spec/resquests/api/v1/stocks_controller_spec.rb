@@ -20,7 +20,7 @@ RSpec.describe 'Api::V1::StocksController', type: :request do
 
       it 'return list of stocks' do
         get api_v1_stocks_path
-        # binding.pry
+
         stock_result = JSON.parse(response.body, symbolize_names: true)
         expect(response).to be_successful
         expect(stock.id).to eq stock_result
