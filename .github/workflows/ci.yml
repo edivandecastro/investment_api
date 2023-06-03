@@ -37,7 +37,9 @@ jobs:
         PGHOST: localhost
         PGUSER: postgres
       run: |
-        bin/rails db:setup
+        bin/rails db:drop
+        bin/rails db:create
+        bin/rails db:migrate
 
     - name: Run tests
       run: |
