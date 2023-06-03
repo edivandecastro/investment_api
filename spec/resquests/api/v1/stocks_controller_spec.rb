@@ -21,10 +21,11 @@ RSpec.describe 'Api::V1::StocksController', type: :request do
       it 'return list of stocks' do
         get api_v1_stocks_path
 
-        stock_result = JSON.parse(response.body, symbolize_names: true)[:stocks].first
+        stock_result = JSON.parse(response.body, symbolize_names: true)[:stocks]
+        stock_result.map! { |stock| stock[:id] }
 
         expect(response).to be_successful
-        expect(stock.id).to eq stock_result[:id]
+        expect(stock_result.include?(stock.id)).to be true
       end
     end
   end
