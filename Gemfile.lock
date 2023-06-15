@@ -209,6 +209,8 @@ GEM
     rubyzip (2.3.2)
     seedbank (0.5.0)
       rake (>= 10.0)
+    service_actor (3.7.0)
+      zeitwerk
     shoulda-matchers (5.3.0)
       activesupport (>= 5.2.0)
     thor (1.2.2)
@@ -239,6 +241,7 @@ DEPENDENCIES
   roo (~> 2.10.0)
   rspec-rails (~> 5.1, >= 5.1.2)
   seedbank (~> 0.5.0)
+  service_actor (~> 3.7)
   shoulda-matchers (~> 5.3)
   tzinfo-data
 
