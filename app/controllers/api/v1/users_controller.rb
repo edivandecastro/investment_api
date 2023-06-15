@@ -39,6 +39,14 @@ class Api::V1::UsersController < Api::V1::ApplicationController
     end
   end
 
+  def position_import
+    context = ImportPositionInStock.call(document: params[:document])
+    binding.pry
+    # File.open(Rails.root.join('tmp', 'uploads', params[:document].original_filename), 'wb') do |file|
+    #   file.write(params[:document].read)
+    # end
+  end
+
   private
 
   def set_user

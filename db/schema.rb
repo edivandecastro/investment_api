@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
+ActiveRecord::Schema[7.0].define(version: 2023_06_12_123737) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
   enable_extension "plpgsql"
@@ -30,6 +30,12 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "documents", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "document"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "segments", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "name", null: false
     t.datetime "created_at", null: false
@@ -42,6 +48,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.string "description", null: false
     t.string "acronym", null: false
     t.integer "stock_type", null: false
+    t.string "cnpj", null: false
+    t.string "isin"
+    t.decimal "closing_price"
+    t.date "closing_date"
     t.uuid "segment_id", null: false
     t.uuid "country_id", null: false
     t.uuid "asset_id", null: false
@@ -70,6 +80,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.uuid "user_id", null: false
     t.string "investible_type", null: false
     t.uuid "investible_id", null: false
+    t.decimal "amount", null: false
     t.decimal "balance", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

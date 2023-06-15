@@ -6,6 +6,10 @@ class CreateStocks < ActiveRecord::Migration[7.0]
       t.string :description, null: false
       t.string :acronym, null: false
       t.integer :stock_type, null: false
+      t.string :cnpj, null: false
+      t.string :isin
+      t.decimal :closing_price
+      t.date :closing_date
       t.references :segment, null: false, foreign_key: true, type: :uuid
       t.references :country, null: false, foreign_key: true, type: :uuid
       t.references :asset, null: false, foreign_key: true, type: :uuid

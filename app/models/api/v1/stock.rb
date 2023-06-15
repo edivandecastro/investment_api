@@ -19,7 +19,8 @@ module Api
         preferred_class_d: 8,
         subscription_receipt_ordinary: 9,
         subscription_receipt_preferred: 10,
-        bdr_etf_unit: 11
+        bdr_etf_unit: 11,
+        quota_receipt: 12
       }
      end
   end

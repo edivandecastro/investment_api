@@ -6,21 +6,27 @@ after :segments, :countries, :assets do
 
   [
     {
-      icon: "https://bastter-storage.b-cdn.net/acao/BBSE.gif",
+      icon: "/acao/BBSE.gif",
       name: "Banco do Brasil",
       description: "Instituição bicentenária e um dos maiores bancos do Brasil em total de ativos.",
       acronym: "BBAS",
       stock_type: "ordinary",
+      cnpj: "00000000000191",
+      isin: "BRBBASACNOR3",
+      code_cvm: "1023"
       segment: segment,
       country: country,
       asset: asset
     },
     {
-      icon: "https://bastter-storage.b-cdn.net/acao/BBSE.gif",
+      icon: "/acao/BBSE.gif",
       name: "Banco do Brasil",
       description: "Instituição bicentenária e um dos maiores bancos do Brasil em total de ativos.",
       acronym: "BBAS",
       stock_type: "bdr_etf_unit",
+      cnpj: "00000000000191",
+      isin: "BRBBASA04OR8",
+      code_cvm: "1023"
       segment: segment,
       country: country,
       asset: asset
