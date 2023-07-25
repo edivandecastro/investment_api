@@ -1,6 +1,8 @@
 module Api
   module V1
     class Transaction < ApplicationRecord
+      self.implicit_order_column = "created_at"
+
       belongs_to :user
       belongs_to :investible, polymorphic: true
 
