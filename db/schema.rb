@@ -22,6 +22,22 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "companies", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.string "icon"
+    t.string "name", null: false
+    t.string "code", null: false
+    t.string "code_cvm"
+    t.string "description", null: false
+    t.string "cnpj", null: false
+    t.string "website"
+    t.uuid "country_id", null: false
+    t.uuid "sector_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["country_id"], name: "index_companies_on_country_id"
+    t.index ["sector_id"], name: "index_companies_on_sector_id"
+  end
+
   create_table "countries", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "name", null: false
     t.string "locale", null: false
@@ -30,7 +46,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "segments", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+  create_table "sectors", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "name", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -38,18 +54,15 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
 
   create_table "stocks", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "icon", null: false
-    t.string "name", null: false
-    t.string "description", null: false
     t.string "acronym", null: false
     t.integer "stock_type", null: false
-    t.uuid "segment_id", null: false
-    t.uuid "country_id", null: false
+    t.string "isin"
+    t.uuid "company_id", null: false
     t.uuid "asset_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["asset_id"], name: "index_stocks_on_asset_id"
-    t.index ["country_id"], name: "index_stocks_on_country_id"
-    t.index ["segment_id"], name: "index_stocks_on_segment_id"
+    t.index ["company_id"], name: "index_stocks_on_company_id"
   end
 
   create_table "transactions", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
@@ -85,9 +98,10 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.datetime "updated_at", null: false
   end
 
+  add_foreign_key "companies", "countries"
+  add_foreign_key "companies", "sectors"
   add_foreign_key "stocks", "assets"
-  add_foreign_key "stocks", "countries"
-  add_foreign_key "stocks", "segments"
+  add_foreign_key "stocks", "companies"
   add_foreign_key "transactions", "users"
   add_foreign_key "user_assets", "users"
 end

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :countries
       resources :assets
-      resources :segments
+      resources :sectors
       resources :stocks
       resources :user_assets
       resources :users do

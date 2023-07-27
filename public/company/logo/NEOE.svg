@@ -1,0 +1,110 @@
+<svg  id="fndm-hde5b5i16l" viewBox="0.5 0.6000003814697266 101 40.30000305175781" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+   <defs xmlns="http://www.w3.org/2000/svg">
+    <path d="m0.6,18.2c0,1.3 0.5,3.1 2,4.5c0.5,0.5 1,0.9 1.7,1.2c-0.4,2 -0.5,4.2 -0.3,6.8l1.4,-0.1c-0.5,-2.4 -0.6,-4.5 -0.3,-6.4c5.8,2.2 15,-2.8 7.9,-23.6c-0.8,9.4 -12.3,8.7 -12.4,17.6" id="fndm-fcfmzr26p2"/>
+    <path d="m0.6,18.2c0,1.3 0.5,3.1 2,4.5c0.5,0.5 1,0.9 1.7,1.2c0.3,-1.6 0.8,-3 1.3,-4.3c-0.9,-1.5 -1.9,-4.4 -1.9,-6.4c0.4,1.7 1.3,4 2.2,5.6c0.7,-1.5 1.6,-2.8 2.4,-4.1c-1,-1.4 -1.2,-3.8 -1.2,-4.3c0.3,0.8 0.7,2.2 1.6,3.6c0.8,-1.2 1.6,-2.4 2.3,-3.7c-0.4,-0.9 -0.7,-2.3 -0.7,-2.7c0.2,0.6 0.7,1.4 1.1,1.9c0.9,-1.7 1.3,-3.2 1.5,-4.1c0.2,-1.4 0.2,-3 0,-4.7c-0.7,9.3 -12.2,8.6 -12.3,17.5" id="fndm-p1nxx1p40j"/>
+    <path d="m0.5,18.2c0,1.3 0.5,3.1 2,4.5c5,5 18.6,2.1 10.4,-22c-0.8,9.3 -12.2,8.6 -12.4,17.5" id="fndm-4fu12g2byc"/>
+    <path d="m0.5,9.2c0,1.3 0.5,3.1 2,4.5c0.2,0.2 0.4,0.3 0.5,0.5c2.5,-2 4.2,-6.3 3.2,-13.4c-2.9,2 -5.6,4.1 -5.7,8.4" id="fndm-r5o5utsgf8"/>
+    <path d="m0.5,18.2c0,1.3 0.5,3.1 2,4.5c5,5 18.6,2.1 10.4,-22c-0.8,9.3 -12.2,8.6 -12.4,17.5" id="fndm-ot44ksnyvs"/>
+    <path d="m0.5,9.2c0,1.3 0.5,3.1 2,4.5c0.2,0.2 0.3,0.3 0.5,0.4c2.5,-2.1 4.1,-6.2 3.1,-13.3c-2.8,2.1 -5.5,4.1 -5.6,8.4" id="fndm-s3u46845cn"/>
+    <radialGradient gradientTransform="matrix(1 0 0 .5431 0 -.078)" fy="-17.128%" fx="-28.246%" r="279.075%" cy="-17.128%" cx="-28.246%" id="fndm-eexykfonuk">
+     <stop stop-color="#C9D647" offset="0%"/>
+     <stop stop-color="#C9D647" offset="19.1%"/>
+     <stop stop-color="#9FBB3E" offset="35.2%"/>
+     <stop stop-color="#749F35" offset="53.8%"/>
+     <stop stop-color="#5A8E30" offset="68.4%"/>
+     <stop stop-color="#50882E" offset="77%"/>
+     <stop stop-color="#50882E" offset="100%"/>
+    </radialGradient>
+    <radialGradient gradientTransform="matrix(1 0 0 .76296 0 -.036)" fy="-15.077%" fx="-17.666%" r="170.698%" cy="-15.077%" cx="-17.666%" id="fndm-1j96whjo56">
+     <stop stop-color="#DBE5F4" offset="0%"/>
+     <stop stop-color="#D7E3F3" offset="13.6%"/>
+     <stop stop-color="#CDDEF1" offset="25.7%"/>
+     <stop stop-color="#BAD5EC" offset="37.3%"/>
+     <stop stop-color="#A1C8E6" offset="48.6%"/>
+     <stop stop-color="#80B8DE" offset="59.6%"/>
+     <stop stop-color="#57A4D5" offset="70.4%"/>
+     <stop stop-color="#288DC9" offset="80.8%"/>
+     <stop stop-color="#0079C0" offset="88.5%"/>
+     <stop stop-color="#0079C0" offset="100%"/>
+    </radialGradient>
+    <radialGradient gradientTransform="matrix(1 0 0 .5 0 -.491)" fy="-98.294%" fx="-54.115%" r="524.828%" cy="-98.294%" cx="-54.115%" id="fndm-qesuky5llf">
+     <stop stop-color="#FFF" offset="0%"/>
+     <stop stop-color="#F4F8FC" offset="1.7%"/>
+     <stop stop-color="#DAE7F5" offset="6.6%"/>
+     <stop stop-color="#C6D9EF" offset="12.1%"/>
+     <stop stop-color="#B8CFEB" offset="18.2%"/>
+     <stop stop-color="#B0CAE9" offset="25.7%"/>
+     <stop stop-color="#ADC8E8" offset="38.2%"/>
+     <stop stop-color="#8FBAE1" offset="44.5%"/>
+     <stop stop-color="#4397CF" offset="61.7%"/>
+     <stop stop-color="#1281C4" offset="73.9%"/>
+     <stop stop-color="#0079C0" offset="80%"/>
+     <stop stop-color="#0079C0" offset="100%"/>
+    </radialGradient>
+    <radialGradient gradientTransform="matrix(1 0 0 .76296 0 -.035)" fy="-14.738%" fx="-17.516%" r="170.696%" cy="-14.738%" cx="-17.516%" id="fndm-pgryojq1mn">
+     <stop stop-color="#FFF100" offset="0%"/>
+     <stop stop-color="#FFF100" offset="13.5%"/>
+     <stop stop-color="#FFE701" offset="17.6%"/>
+     <stop stop-color="#FFD604" offset="27%"/>
+     <stop stop-color="#FFCC06" offset="37.2%"/>
+     <stop stop-color="#FFC906" offset="50%"/>
+     <stop stop-color="#FDBE0A" offset="55.6%"/>
+     <stop stop-color="#F68E1A" offset="81.9%"/>
+     <stop stop-color="#F37C20" offset="95%"/>
+     <stop stop-color="#F37C20" offset="100%"/>
+    </radialGradient>
+    <radialGradient gradientTransform="matrix(1 0 0 .49624 0 -.5)" fy="-99.07%" fx="-54.685%" r="532.8%" cy="-99.07%" cx="-54.685%" id="fndm-psa7n647w9">
+     <stop stop-color="#FFF100" offset="0%"/>
+     <stop stop-color="#FEE603" offset="3%"/>
+     <stop stop-color="#FDD20A" offset="10.2%"/>
+     <stop stop-color="#FDC40E" offset="18.4%"/>
+     <stop stop-color="#FCBC11" offset="28.4%"/>
+     <stop stop-color="#FCB912" offset="45%"/>
+     <stop stop-color="#F8A117" offset="54%"/>
+     <stop stop-color="#F58D1C" offset="64.5%"/>
+     <stop stop-color="#F4801F" offset="74.9%"/>
+     <stop stop-color="#F37C20" offset="85%"/>
+     <stop stop-color="#F37C20" offset="100%"/>
+    </radialGradient>
+    <linearGradient y2="93.099%" y1="30.358%" x2="56.734%" x1="46.788%" id="fndm-psa7n647w96">
+     <stop stop-color="#C5CE21" offset="0%"/>
+     <stop stop-color="#C5CE21" offset="3.4%"/>
+     <stop stop-color="#B4C423" offset="18.1%"/>
+     <stop stop-color="#88AA28" offset="47.3%"/>
+     <stop stop-color="#50882E" offset="80%"/>
+     <stop stop-color="#50882E" offset="100%"/>
+    </linearGradient>
+   </defs>
+   <g xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" fill="none">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fndm-fcfmzr26p2" fill="url(#fndm-psa7n647w96)"/>
+    <mask id="fndm-psa7n647w94">
+     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fndm-p1nxx1p40j"/>
+    </mask>
+    <path mask="url(#fndm-psa7n647w94)" d="m0.5,0.7l12.6,0l0,23.2l-12.6,0l0,-23.2z" fill-rule="nonzero" fill="url(#fndm-eexykfonuk)"/>
+    <g transform="translate(9)">
+     <mask id="fndm-psa7n647w91">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fndm-4fu12g2byc"/>
+     </mask>
+     <path mask="url(#fndm-psa7n647w91)" d="m0.5,0.7l20.6,0l0,27l-20.6,0l0,-27z" fill-rule="nonzero" fill="url(#fndm-1j96whjo56)"/>
+    </g>
+    <g transform="translate(9 9)">
+     <mask id="fndm-omiv25919k">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fndm-r5o5utsgf8"/>
+     </mask>
+     <path mask="url(#fndm-omiv25919k)" d="m0.5,0.8l6.7,0l0,13.4l-6.7,0l0,-13.4z" fill-rule="nonzero" fill="url(#fndm-qesuky5llf)"/>
+    </g>
+    <g transform="translate(18)">
+     <mask id="fndm-xqks55vjci">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fndm-ot44ksnyvs"/>
+     </mask>
+     <path mask="url(#fndm-xqks55vjci)" d="m0.5,0.7l20.6,0l0,27l-20.6,0l0,-27z" fill-rule="nonzero" fill="url(#fndm-pgryojq1mn)"/>
+    </g>
+    <g transform="translate(18 9)">
+     <mask id="fndm-6g76apoxkc">
+      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fndm-s3u46845cn"/>
+     </mask>
+     <path mask="url(#fndm-6g76apoxkc)" d="m0.5,0.8l6.6,0l0,13.3l-6.6,0l0,-13.3z" fill-rule="nonzero" fill="url(#fndm-psa7n647w9)"/>
+    </g>
+    <path d="m96.9,30.9l-2.2,0l-4,9.9l2.2,0l0.8,-2.1l4.7,0l0.6,1.4c0.1,0.3 0.3,0.7 1,0.7l1.5,0l-4.6,-9.9zm-2.8,6.3l1.6,-4.4l1.8,4.4l-3.4,0zm-71.3,-0.9l4.8,0l0,-1.3l-4.8,0l0,-2.8l5,0l0,-1.3l-7,0l0,9.9l7.1,0l0,-1.4l-5.1,0l0,-3.1zm19.5,0l4.8,0l0,-1.3l-4.8,0l0,-2.8l5,0l0,-1.3l-7,0l0,9.9l7.1,0l0,-1.4l-5.1,0l0,-3.1zm45.2,-5.4l2.1,0l0,9.9l-2.1,0l0,-9.9zm-5.2,5.3c0,0.3 0.2,0.6 0.9,0.6l0.7,0l0,2.1c-0.4,0.2 -0.9,0.3 -1.5,0.3c-2,0 -3.1,-1.2 -3.1,-3.4c0,-2 1,-3.4 3.1,-3.4c0.8,0 1.6,0.1 2.4,0.3l0,-1.6c-0.7,-0.2 -1.5,-0.3 -2.4,-0.3c-3.6,0 -5.2,2.6 -5.2,5c0,2.5 1.6,5 5.2,5c1.5,0 2.7,-0.5 3.4,-1.2l0,-4l-2.7,0c-0.7,-0.1 -0.8,0.4 -0.8,0.6zm-48.5,-5.3c-3.6,0 -5.2,2.5 -5.2,5s1.6,5 5.2,5c3.5,0 5.2,-2.6 5.2,-5c0,-2.5 -1.6,-5 -5.2,-5zm0,8.3c-2,0 -3.1,-1.2 -3.1,-3.4s1.1,-3.4 3.1,-3.4s3.1,1.2 3.1,3.4s-1.1,3.4 -3.1,3.4zm40,-3c0.8,-0.2 2.1,-0.9 2.1,-2.6c0,-1.4 -1.1,-2.7 -3.1,-2.7l-4.4,0l0,9.9l2,0l0,-8.6l1.6,0c1.5,0 1.8,0.9 1.8,1.5c0,0.9 -0.7,1.5 -1.7,1.5c-0.7,0 -1.1,0.3 -1.1,0.7c0,0.3 0.2,0.6 0.9,0.7c0.9,0.1 1.3,1.1 1.8,2.2c0,0 0.4,1 0.6,1.3c0.1,0.3 0.3,0.7 1,0.7l1.6,0l-0.7,-1.5c-0.8,-1.6 -1.4,-2.5 -2.4,-3.1zm-56.7,-5.3l0,6.8l-5.4,-6.8l-2.1,0l0,9.9l2,0l0,-7.3s4.4,5.7 5.4,7c0.1,0.2 0.3,0.3 0.7,0.3l1.5,0l0,-9.9l-2.1,0zm44.9,5.4l4.8,0l0,-1.3l-4.8,0l0,-2.8l5,0l0,-1.3l-7,0l0,9.9l7.1,0l0,-1.4l-5.1,0l0,-3.1zm-5.7,-5.4l0,6.8l-5.4,-6.8l-2.2,0l0,9.9l2,0l0,-7.3s4.4,5.7 5.4,7c0.1,0.2 0.3,0.3 0.7,0.3l1.5,0l0,-9.9l-2,0z" fill-rule="nonzero" fill="#50882E"/>
+   </g>
+  </svg>
