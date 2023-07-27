@@ -7,18 +7,16 @@ RSpec.describe Api::V1::Stock, type: :model do
 
   context "columns" do
     it { is_expected.to have_db_column(:icon).of_type(:string) }
-    it { is_expected.to have_db_column(:name).of_type(:string) }
-    it { is_expected.to have_db_column(:description).of_type(:string) }
     it { is_expected.to have_db_column(:acronym).of_type(:string) }
     it { is_expected.to have_db_column(:stock_type).of_type(:integer) }
-    it { is_expected.to have_db_column(:segment_id).of_type(:uuid) }
-    it { is_expected.to have_db_column(:country_id).of_type(:uuid) }
+    it { is_expected.to have_db_column(:isin).of_type(:string) }
+    it { is_expected.to have_db_column(:company_id).of_type(:uuid) }
     it { is_expected.to have_db_column(:asset_id).of_type(:uuid) }
+    it { is_expected.to have_db_column(:created_at).of_type(:datetime) }
+    it { is_expected.to have_db_column(:updated_at).of_type(:datetime) }
   end
 
   context 'validations' do
-    it { is_expected.to validate_presence_of(:name) }
-    it { is_expected.to validate_presence_of(:description) }
     it { is_expected.to validate_presence_of(:acronym) }
     it { is_expected.to validate_presence_of(:stock_type) }
   end
