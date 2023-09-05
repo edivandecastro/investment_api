@@ -32,5 +32,10 @@ module InvestmentApi
       g.fixture_replacement :factory_bot, dir: 'spec/factories'
       g.factory_bot suffix: "factory"
     end
+
+    config.generators.after_generate do |files|
+      parsable_files = files.filter { |file| file.end_with?('.rb') }
+      system("bundle exec rubocop -A --fail-level=E #{parsable_files.shelljoin}", exception: true)
+    end
   end
 end

@@ -25,5 +25,9 @@ group :development, :test do
 end
 
 group :development do
-  gem "mina"
+  gem "rubocop", "~> 1.56", ">= 1.56.2"
+  gem "rubocop-factory_bot", "~> 2.23", ">= 2.23.1"
+  gem "rubocop-rails", "~> 2.20", ">= 2.20.2"
+  gem "rubocop-rspec", "~> 2.23", ">= 2.23.2"
+  gem "rubocop-performance", "~> 1.19"
 end
