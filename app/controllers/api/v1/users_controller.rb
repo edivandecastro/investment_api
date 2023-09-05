@@ -33,9 +33,18 @@ class Api::V1::UsersController < Api::V1::ApplicationController
 
   def update
     if @user.update(user_params)
-      render json: @user, root: :clinic, status: :ok, location: @user
+      render json: @user, root: :user, status: :ok, location: @user
     else
       render json: { errors: @user.errors }, status: :unprocessable_entity
+    end
+  end
+
+  def position_import
+    begin
+      context = ImportPositionInStock.call(document: params[:document], user_id: params[:id])
+      render json: { success: context.success? }, status: :ok
+    rescue ServiceActor::Failure => e
+      render json: { errors: e.message }, status: :unprocessable_entity
     end
   end
 

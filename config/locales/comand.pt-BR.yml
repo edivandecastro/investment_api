@@ -1,0 +1,5 @@
+pt-BR:
+  comand:
+    errors:
+      sheet_stock_not_found: Não foi localizado no arquivo a planilha de Acoes
+      spredsheet_column_not_found: Não foi localizado a coluna '%{name}' no arquivo enviado
