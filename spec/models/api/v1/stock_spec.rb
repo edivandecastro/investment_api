@@ -7,7 +7,7 @@ RSpec.describe Api::V1::Stock, type: :model do
 
   context "columns" do
     it { is_expected.to have_db_column(:icon).of_type(:string) }
-    it { is_expected.to have_db_column(:acronym).of_type(:string) }
+    it { is_expected.to have_db_column(:ticker_symbol).of_type(:string) }
     it { is_expected.to have_db_column(:stock_type).of_type(:integer) }
     it { is_expected.to have_db_column(:isin).of_type(:string) }
     it { is_expected.to have_db_column(:company_id).of_type(:uuid) }
@@ -17,7 +17,7 @@ RSpec.describe Api::V1::Stock, type: :model do
   end
 
   context 'validations' do
-    it { is_expected.to validate_presence_of(:acronym) }
+    it { is_expected.to validate_presence_of(:ticker_symbol) }
     it { is_expected.to validate_presence_of(:stock_type) }
   end
 end

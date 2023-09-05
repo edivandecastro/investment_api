@@ -8,16 +8,20 @@ class CreateOrUpdateStock < Actor
       user = Api::V1::User.find(user_id)
       user_asset = Api::V1::UserAsset.find_by(user: user, investible: stock)
 
-      if user_asset
-        user_asset.update(amount: stock_hash[:amount], balance: stock_hash[:balance])
-      else
-        Api::V1::UserAsset.create(
-          user: user,
-          investible: stock,
-          amount: stock_hash[:amount],
-          balance: stock_hash[:balance]
-        )
-      end
+      (update_user_asset(user_asset, stock_hash) && next) || create_user_asset(user, stock, stock_hash)
     end
+  end
+
+  private
+
+  def update_user_asset(user_asset, stock_hash)
+    user_asset&.update(amount: stock_hash[:amount], balance: stock_hash[:balance])
+  end
+
+  def create_user_asset(user, stock, stock_hash)
+    Api::V1::UserAsset.create(user: user,
+                              investible: stock,
+                              amount: stock_hash[:amount],
+                              balance: stock_hash[:balance])
   end
 end

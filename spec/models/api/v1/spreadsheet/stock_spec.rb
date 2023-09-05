@@ -8,6 +8,8 @@ RSpec.describe Api::V1::Spreadsheet::Stock, type: :model do
   end
 
   describe "#column" do
+    let!(:system_configuration) { create(:system_configuration) }
+
     context "when get codes" do
       it "should return columns of codes in spreadsheet" do
         expect(subject.column(:code)).to eq column_code
@@ -24,12 +26,6 @@ RSpec.describe Api::V1::Spreadsheet::Stock, type: :model do
       it "should return columns of amounts in spreadsheet" do
         expect(subject.column(:amount)).to eq column_amount
       end
-    end
-  end
-
-  describe ".columns" do
-    it "should return hash with number of columns in spreedsheet" do
-      expect(subject.class.columns).to eq({ :amount => 9, :balance => 14, :code => 4 })
     end
   end
 

@@ -1,5 +1,3 @@
 class ImportPositionInStock < Actor
-  play CalculateAmountStock,
-       ExtractColumnsInStock,
-       CreateOrUpdateStock
+  play CalculateAmountStock, ExtractColumnsInStock, CreateOrUpdateStock
 end

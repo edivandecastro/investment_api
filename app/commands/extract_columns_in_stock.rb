@@ -5,14 +5,18 @@ class ExtractColumnsInStock < Actor
   output :stocks
 
   def call
-    begin
-      stocks.each_index do |i|
-        stocks[i].store(:code, spreadsheet.column(:code).dig(i))
-        stocks[i].store(:balance, spreadsheet.column(:balance).dig(i))
-        stocks[i].store(:amount, spreadsheet.column(:amount).dig(i))
-      end
-    rescue Errors::NotFoundColumnError => e
-      fail!(error: e.message)
+    stocks.each_index do |i|
+      stocks[i].store(:code, column(:code, i))
+      stocks[i].store(:balance, column(:balance, i))
+      stocks[i].store(:amount, column(:amount, i))
     end
+  rescue Errors::NotFoundColumnError => e
+    fail!(error: e.message)
+  end
+
+  private
+
+  def column(name, position)
+    spreadsheet.column(name)[position]
   end
 end

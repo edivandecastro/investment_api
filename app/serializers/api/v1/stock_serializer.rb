@@ -1,7 +1,7 @@
 module Api
   module V1
     class StockSerializer < ActiveModel::Serializer
-      attributes :id, :icon, :acronym, :stock_type
+      attributes :id, :icon, :ticker_symbol, :stock_type
 
       belongs_to :asset
       belongs_to :company
