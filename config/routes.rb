@@ -8,6 +8,8 @@ Rails.application.routes.draw do
       resources :user_assets
       resources :users do
         resources :stocks
+
+        post 'position_import', on: :member
       end
     end
   end

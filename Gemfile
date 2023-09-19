@@ -12,6 +12,8 @@ gem "rack-cors"
 gem "active_model_serializers", "~> 0.10.13"
 gem "kaminari"
 gem "seedbank", "~> 0.5.0"
+gem "roo", "~> 2.10.0"
+gem "service_actor", "~> 3.7"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
@@ -23,5 +25,9 @@ group :development, :test do
 end
 
 group :development do
-  gem "mina"
+  gem "rubocop", "~> 1.56", ">= 1.56.2"
+  gem "rubocop-factory_bot", "~> 2.23", ">= 2.23.1"
+  gem "rubocop-rails", "~> 2.20", ">= 2.20.2"
+  gem "rubocop-rspec", "~> 2.23", ">= 2.23.2"
+  gem "rubocop-performance", "~> 1.19"
 end

@@ -5,7 +5,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PETR.svg",
       name: "Petrobras",
-      code: "PETR",
+      ticker_symbol_prefix: "PETR",
       code_cvm: "9512",
       description: "Atua com produção, refino, comercialização, transporte, gás natural, energia elétrica e biocombustíveis.",
       cnpj: "33000167000101",
@@ -16,7 +16,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VALE.svg",
       name: "Vale",
-      code: "VALE",
+      ticker_symbol_prefix: "VALE",
       code_cvm: "4170",
       description: "Uma das maiores mineradoras do mundo (maior produtora mundial de minério de ferro, pelotas e níquel). O Governo Federal possui uma Golden Share.",
       cnpj: "33592510000154",
@@ -27,7 +27,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ITUB.svg",
       name: "Banco Itaú",
-      code: "ITUB",
+      ticker_symbol_prefix: "ITUB",
       code_cvm: "19348",
       description: "É uma das maiores instituições financeiras do Brasil e da América Latina.",
       cnpj: "60872504000123",
@@ -38,7 +38,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ABEV.svg",
       name: "Ambev",
-      code: "ABEV",
+      ticker_symbol_prefix: "ABEV",
       code_cvm: "23264",
       description: "Líder em diversos mercados com marcas como Skol, Brahma, Antarctica, Guaraná Antarctica e Fusion.",
       cnpj: "07526557000100",
@@ -49,7 +49,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BPAC.svg",
       name: "BTG Pactual",
-      code: "BPAC",
+      ticker_symbol_prefix: "BPAC",
       code_cvm: "22616",
       description: "Banco de investimento e gestor de ativos/fortunas e uma plataforma internacional de investimentos",
       cnpj: "30306294000145",
@@ -60,7 +60,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NUBR.svg",
       name: "Nu Holdings (BDR)",
-      code: "NUBR",
+      ticker_symbol_prefix: "NUBR",
       code_cvm: "80209",
       description: "Uma das maiores plataformas de serviços financeiros digitais no mundo, servindo 80 milhões de clientes no Brasil, México e Colômbia.",
       cnpj: "24410913000144",
@@ -71,7 +71,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BBDC.svg",
       name: "Banco Bradesco",
-      code: "BBDC",
+      ticker_symbol_prefix: "BBDC",
       code_cvm: "906",
       description: "Um dos maiores bancos do setor privado no Brasil em total de ativos e líder do mercado de seguros.",
       cnpj: "60746948000112",
@@ -82,7 +82,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/WEGE.svg",
       name: "Weg",
-      code: "WEGE",
+      ticker_symbol_prefix: "WEGE",
       code_cvm: "5410",
       description: "Uma das maiores fabricantes de equipamentos elétricos do mundo entre outros setores (energia, tinta...).",
       cnpj: "84429695000111",
@@ -93,7 +93,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BBAS.svg",
       name: "Banco do Brasil",
-      code: "BBAS",
+      ticker_symbol_prefix: "BBAS",
       code_cvm: "1023",
       description: "Instituição bicentenária e um dos maiores bancos do Brasil em total de ativos.",
       cnpj: "00000000000191",
@@ -104,7 +104,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SANB.svg",
       name: "Santander",
-      code: "SANB",
+      ticker_symbol_prefix: "SANB",
       code_cvm: "20532",
       description: "Maior conglomerado internacional financeiro no país e terceiro maior banco privado (sede na Espanha).",
       cnpj: "90400888000142",
@@ -115,7 +115,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ELET.svg",
       name: "Eletrobras",
-      code: "ELET",
+      ticker_symbol_prefix: "ELET",
       code_cvm: "2437",
       description: "É uma holding estatal que controla diversas empresas de geração, transmissão e distribuição de energia elétrica no país.",
       cnpj: "00001180000126",
@@ -126,7 +126,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ITSA.svg",
       name: "Itaúsa",
-      code: "ITSA",
+      ticker_symbol_prefix: "ITSA",
       code_cvm: "7617",
       description: "Holding que investe em Itaú, Alpargatas, Duratex, CCR, entre outras.",
       cnpj: "61532644000115",
@@ -137,7 +137,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/B3SA.svg",
       name: "B3",
-      code: "B3SA",
+      ticker_symbol_prefix: "B3SA",
       code_cvm: "21610",
       description: "Uma das maiores empresas de infraestrutura para o MF do mundo e também detém a CETIP e a CBLC.",
       cnpj: "09346601000125",
@@ -148,7 +148,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RDOR.svg",
       name: "Rede D'Or",
-      code: "RDOR",
+      ticker_symbol_prefix: "RDOR",
       code_cvm: "24821",
       description: "Maior rede integrada de cuidados em saúde no Brasil com clínicas e hospitais próprios.",
       cnpj: "06047087000139",
@@ -159,7 +159,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VIVT.svg",
       name: "Telefônica Brasil",
-      code: "VIVT",
+      ticker_symbol_prefix: "VIVT",
       code_cvm: "17671",
       description: "Detentora da marca Vivo é a maior empresa de telecomunicações do país (móvel, banda larga, TV, entre outros).",
       cnpj: "02558157000162",
@@ -170,7 +170,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RENT.svg",
       name: "Localiza",
-      code: "RENT",
+      ticker_symbol_prefix: "RENT",
       code_cvm: "19739",
       description: "Uma das principais empresas do setor de locação de veículos na América Latina.",
       cnpj: "16670085000155",
@@ -181,7 +181,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BBSE.svg",
       name: "BB Seguridade",
-      code: "BBSE",
+      ticker_symbol_prefix: "BBSE",
       code_cvm: "23159",
       description: "Holding que centraliza os negócios de seguros, previdência aberta e capitalização do Banco do Brasil",
       cnpj: "17344597000194",
@@ -192,7 +192,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SUZB.svg",
       name: "Suzano Papel",
-      code: "SUZB",
+      ticker_symbol_prefix: "SUZB",
       code_cvm: "13986",
       description: "Uma das maiores produtoras verticalmente integradas de papel e celulose de eucalipto da América Latina.",
       cnpj: "16404287000155",
@@ -203,7 +203,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RADL.svg",
       name: "RaiaDrogasil",
-      code: "RADL",
+      ticker_symbol_prefix: "RADL",
       code_cvm: "5258",
       description: "Uma das maiores redes de farmácias do país, resultante da fusão entre Droga Raia e Drogasil.",
       cnpj: "61585865000151",
@@ -214,7 +214,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GGBR.svg",
       name: "Gerdau",
-      code: "GGBR",
+      ticker_symbol_prefix: "GGBR",
       code_cvm: "3980",
       description: "Líder no segmento de aços longos e uma das principais fornecedoras de aços longos especiais do mundo",
       cnpj: "33611500000119",
@@ -225,7 +225,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RAIL.svg",
       name: "Rumo Log",
-      code: "RAIL",
+      ticker_symbol_prefix: "RAIL",
       code_cvm: "17450",
       description: "Resultante da fusão entre Rumo e ALL é a maior operadora logística com base ferroviária da AL",
       cnpj: "02387241000160",
@@ -236,7 +236,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/JBSS.svg",
       name: "JBS",
-      code: "JBSS",
+      ticker_symbol_prefix: "JBSS",
       code_cvm: "20575",
       description: "É uma das maiores empresas de alimentos do mundo e uma das maiores produtoras de carne bovina, suína e de aves.",
       cnpj: "02916265000160",
@@ -247,7 +247,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RAIZ.svg",
       name: "Raízen",
-      code: "RAIZ",
+      ticker_symbol_prefix: "RAIZ",
       code_cvm: "25917",
       description: "Atua na distribuição e venda de etanol, petróleo, combustíveis e outros hidrocarbonetos fluidos e seus subprodutos.",
       cnpj: "33453598000123",
@@ -258,7 +258,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SBSP.svg",
       name: "Sabesp",
-      code: "SBSP",
+      ticker_symbol_prefix: "SBSP",
       code_cvm: "14443",
       description: "Atua no abastecimento de água e na coleta e tratamento de esgoto em diversas regiões do estado de SP.",
       cnpj: "43776517000180",
@@ -269,7 +269,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EGIE.svg",
       name: "Engie",
-      code: "EGIE",
+      ticker_symbol_prefix: "EGIE",
       code_cvm: "17329",
       description: "Maior geradora privada de energia do Brasil.",
       cnpj: "02474103000119",
@@ -280,7 +280,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TIMS.svg",
       name: "TIM",
-      code: "TIMS",
+      ticker_symbol_prefix: "TIMS",
       code_cvm: "24929",
       description: "Telefonia móvel, fixa e acesso à internet via modem, tablet, celular, além da ultra banda larga fixa, são alguns serviços.",
       cnpj: "02421421000111",
@@ -291,7 +291,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CPFE.svg",
       name: "CPFL Energia",
-      code: "CPFE",
+      ticker_symbol_prefix: "CPFE",
       code_cvm: "18660",
       description: "Holding que distribui, gera e comercializa energia elétrica no Brasil, além de prestar serviços ao setor elétrico.",
       cnpj: "02429144000193",
@@ -302,7 +302,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EQTL.svg",
       name: "Equatorial",
-      code: "EQTL",
+      ticker_symbol_prefix: "EQTL",
       code_cvm: "20010",
       description: "É uma empresa brasileira que atua no setor de energia elétrica, incluindo geração, transmissão, distribuição e comercialização.",
       cnpj: "03220438000173",
@@ -313,7 +313,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CSAN.svg",
       name: "Cosan",
-      code: "CSAN",
+      ticker_symbol_prefix: "CSAN",
       code_cvm: "19836",
       description: "Seu portfólio reúne grandes empresas como Raízen, Compass Gás e Energia, Moove e Rumo.",
       cnpj: "50746577000115",
@@ -324,7 +324,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CMIG.svg",
       name: "Cemig",
-      code: "CMIG",
+      ticker_symbol_prefix: "CMIG",
       code_cvm: "2453",
       description: "Foco principal em distribuição e geração de energia elétrica, mas também atua com transmissão e comercialização, além de gás natural.",
       cnpj: "17155730000164",
@@ -335,7 +335,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GOLL.svg",
       name: "Gol",
-      code: "GOLL",
+      ticker_symbol_prefix: "GOLL",
       code_cvm: "19569",
       description: "Companhia aérea brasileira que oferece voos domésticos e internacionais para diversos destinos.",
       cnpj: "06164253000187",
@@ -346,7 +346,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CXSE.svg",
       name: "Caixa Seguridade",
-      code: "CXSE",
+      ticker_symbol_prefix: "CXSE",
       code_cvm: "23795",
       description: "Holding que desenvolve e implementa a estratégia comercial  para a venda dos produtos de seguridade da CAIXA através da participação em outras empresas.",
       cnpj: "22543331000100",
@@ -357,7 +357,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HAPV.svg",
       name: "Hapvida",
-      code: "HAPV",
+      ticker_symbol_prefix: "HAPV",
       code_cvm: "24392",
       description: "Atua com a venda de planos de saúde (maior parte dos atendimentos realizada nas redes próprias) e planos odontológicos.",
       cnpj: "05197443000138",
@@ -368,7 +368,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PRIO.svg",
       name: "PRIO",
-      code: "PRIO",
+      ticker_symbol_prefix: "PRIO",
       code_cvm: "22187",
       description: "Foco no investimento, na recuperação de ativos em produção e no redesenvolvimento de campos maduros.",
       cnpj: "10629105000168",
@@ -379,7 +379,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HYPE.svg",
       name: "Hypera Pharma",
-      code: "HYPE",
+      ticker_symbol_prefix: "HYPE",
       code_cvm: "21431",
       description: "Uma das principais empresas farmacêuticas do Brasil, com marcas como Benegrip, Engov, Epocler e Estomazil.",
       cnpj: "02932074000191",
@@ -390,7 +390,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CCRO.svg",
       name: "CCR",
-      code: "CCRO",
+      ticker_symbol_prefix: "CCRO",
       code_cvm: "18821",
       description: "Holding do Grupo CCR que é uma das maiores cias de concessão de infraestrutura da América Latina.",
       cnpj: "02846056000197",
@@ -401,7 +401,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MGLU.svg",
       name: "Magazine Luiza",
-      code: "MGLU",
+      ticker_symbol_prefix: "MGLU",
       code_cvm: "22470",
       description: "Principais produtos estão nos setores de eletrodomésticos e eletrônicos, telefonia, móveis e brinquedos",
       cnpj: "47960950000121",
@@ -412,7 +412,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CMIN.svg",
       name: "CSN Mineração",
-      code: "CMIN",
+      ticker_symbol_prefix: "CMIN",
       code_cvm: "25585",
       description: "Atua com a mineração e comercialização de minério de ferro, infraestrutura de transporte portuária, geração de energia e participação em sociedades.",
       cnpj: "08902291000115",
@@ -423,7 +423,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/KLBN.svg",
       name: "Klabin",
-      code: "KLBN",
+      ticker_symbol_prefix: "KLBN",
       code_cvm: "12653",
       description: "Maior produtora e exportadora de papéis do Brasil e líder na produção de papéis, cartões, entre outros.",
       cnpj: "89637490000145",
@@ -434,7 +434,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CRFB.svg",
       name: "Carrefour",
-      code: "CRFB",
+      ticker_symbol_prefix: "CRFB",
       code_cvm: "24171",
       description: "É uma das maiores redes varejistas do mundo, presente em vários países.",
       cnpj: "75315333000109",
@@ -445,7 +445,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NEOE.svg",
       name: "Neoenergia",
-      code: "NEOE",
+      ticker_symbol_prefix: "NEOE",
       code_cvm: "15539",
       description: "Holding que atua em toda a cadeia de valor de energia elétrica: geração, transmissão, distribuição e comercialização.",
       cnpj: "01083200000118",
@@ -456,7 +456,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRKM.svg",
       name: "Braskem",
-      code: "BRKM",
+      ticker_symbol_prefix: "BRKM",
       code_cvm: "4820",
       description: "Líder no mercado de resinas termoplásticas (polietileno, polipropileno e PVC) das Américas.",
       cnpj: "42150391000170",
@@ -467,7 +467,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CEGR.svg",
       name: "Ceg",
-      code: "CEGR",
+      ticker_symbol_prefix: "CEGR",
       code_cvm: "16616",
       description: "É uma das principais distribuidoras de gás natural no estado do Rio de Janeiro.",
       cnpj: "33938119000169",
@@ -478,7 +478,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NTCO.svg",
       name: "Natura&Co",
-      code: "NTCO",
+      ticker_symbol_prefix: "NTCO",
       code_cvm: "24783",
       description: "Holding formada pelas marcas Natura, Avon e The Body Shop.",
       cnpj: "32785497000197",
@@ -489,7 +489,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CPLE.svg",
       name: "Copel",
-      code: "CPLE",
+      ticker_symbol_prefix: "CPLE",
       code_cvm: "14311",
       description: "É uma das maiores companhias elétricas do Brasil: gera, transmite, distribui e comercializa energia.",
       cnpj: "76483817000120",
@@ -500,7 +500,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ENGI.svg",
       name: "Energisa",
-      code: "ENGI",
+      ticker_symbol_prefix: "ENGI",
       code_cvm: "15253",
       description: "Holding que atua no setor de energia elétrica, composto por empresas de distribuição de energia em diversos Estados.",
       cnpj: "00864214000106",
@@ -511,7 +511,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LREN.svg",
       name: "Lojas Renner",
-      code: "LREN",
+      ticker_symbol_prefix: "LREN",
       code_cvm: "8133",
       description: "Maior varejista de moda do Brasil em faturamento e está presente nas cinco regiões do país.",
       cnpj: "92754738000162",
@@ -522,7 +522,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VBBR.svg",
       name: "Vibra Energia",
-      code: "VBBR",
+      ticker_symbol_prefix: "VBBR",
       code_cvm: "24295",
       description: "Maior empresa do setor de distribuição de combustíveis no Brasil.",
       cnpj: "34274233000102",
@@ -533,7 +533,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/UGPA.svg",
       name: "Ultrapar",
-      code: "UGPA",
+      ticker_symbol_prefix: "UGPA",
       code_cvm: "18465",
       description: "Detém marcas como Ipiranga, Ultragaz e Ultracargo, com destaque para os postos Ipiranga no setor de combustíveis.",
       cnpj: "33256439000139",
@@ -544,7 +544,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ENEV.svg",
       name: "Eneva",
-      code: "ENEV",
+      ticker_symbol_prefix: "ENEV",
       code_cvm: "21237",
       description: "Atua principalmente no setor de geração termelétrica, especializada na produção de energia elétrica e gás natural.",
       cnpj: "04423567000121",
@@ -555,7 +555,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ASAI.svg",
       name: "Assaí",
-      code: "ASAI",
+      ticker_symbol_prefix: "ASAI",
       code_cvm: "25372",
       description: "Uma das maiores empresas de comércio atacadista do Brasil, fruto da cisão com o Pão de Açúcar em 2021.",
       cnpj: "06057223000171",
@@ -566,7 +566,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TOTS.svg",
       name: "Totvs",
-      code: "TOTS",
+      ticker_symbol_prefix: "TOTS",
       code_cvm: "19992",
       description: "Especializada no desenvolvimento e fornecimento de software de gestão empresarial (ERP - Enterprise Resource Planning).",
       cnpj: "53113791000122",
@@ -577,7 +577,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TRPL.svg",
       name: "Trans Paulista",
-      code: "TRPL",
+      ticker_symbol_prefix: "TRPL",
       code_cvm: "18376",
       description: "Responsável por operar e manter um extenso sistema de linhas de transmissão e subestações de energia em todo o estado de SP.",
       cnpj: "02998611000104",
@@ -588,7 +588,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PSSA.svg",
       name: "Porto",
-      code: "PSSA",
+      ticker_symbol_prefix: "PSSA",
       code_cvm: "16659",
       description: "Uma das maiores seguradoras do Brasil e líder no segmento de automóvel, residência e empresarial.",
       cnpj: "02149205000169",
@@ -599,7 +599,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GMAT.svg",
       name: "Grupo Mateus",
-      code: "GMAT",
+      ticker_symbol_prefix: "GMAT",
       code_cvm: "25186",
       description: "4º maior varejista do Brasil e mantém lojas de atacado como Armazém Mateus e varejo com o Supermercados Mateus, entre outros.",
       cnpj: "24990777000109",
@@ -610,7 +610,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CGAS.svg",
       name: "Comgás",
-      code: "CGAS",
+      ticker_symbol_prefix: "CGAS",
       code_cvm: "15636",
       description: "Maior distribuidora de gás natural canalizado do país, responsável por atender diversas regiões do estado de SP.",
       cnpj: "61856571000117",
@@ -621,7 +621,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CSNA.svg",
       name: "CSN",
-      code: "CSNA",
+      ticker_symbol_prefix: "CSNA",
       code_cvm: "4030",
       description: "Atua com destaque em cinco setores: siderurgia, mineração, logística, cimento e energia.",
       cnpj: "33042730000104",
@@ -632,7 +632,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MULT.svg",
       name: "Multiplan",
-      code: "MULT",
+      ticker_symbol_prefix: "MULT",
       code_cvm: "20982",
       description: "Atua no desenvolvimento, administração e comercialização de shopping centers de alto padrão em várias regiões do Brasil.",
       cnpj: "07816890000153",
@@ -643,7 +643,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ENMT.svg",
       name: "Energisa MT",
-      code: "ENMT",
+      ticker_symbol_prefix: "ENMT",
       code_cvm: "14605",
       description: "Faz parte do Grupo Energisa que atualmente controla 13 distribuidoras de energia elétrica no Brasil",
       cnpj: "03467321000199",
@@ -654,7 +654,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EQPA.svg",
       name: "Equatorial Pará",
-      code: "EQPA",
+      ticker_symbol_prefix: "EQPA",
       code_cvm: "18309",
       description: "Única empresa de distribuição de energia elétrica autorizada pela ANEEL para atuar no estado do Pará.",
       cnpj: "04895728000180",
@@ -665,7 +665,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VAMO.svg",
       name: "Vamos",
-      code: "VAMO",
+      ticker_symbol_prefix: "VAMO",
       code_cvm: "24716",
       description: "Locação de caminhões, máquinas e equipamentos pesados e a prestação de serviços de manutenção de frota, tanto preventiva, quanto corretiva.",
       cnpj: "23373000000132",
@@ -676,7 +676,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EMBR.svg",
       name: "Embraer",
-      code: "EMBR",
+      ticker_symbol_prefix: "EMBR",
       code_cvm: "20087",
       description: "Uma das maiores empresas aeroespaciais do mundo (projeto, desenvolvimento, fabricação e venda). O Governo Federal possui uma Golden Share.",
       cnpj: "07689002000189",
@@ -687,7 +687,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AURE.svg",
       name: "Auren",
-      code: "AURE",
+      ticker_symbol_prefix: "AURE",
       code_cvm: "26620",
       description: "Participação em empresas de geração, transmissão e comercialização de energia elétrica e a prestação de serviços correlatos.",
       cnpj: "28594234000123",
@@ -698,7 +698,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MDIA.svg",
       name: "M.Dias Branco",
-      code: "MDIA",
+      ticker_symbol_prefix: "MDIA",
       code_cvm: "20338",
       description: "Líder nos mercados de biscoitos e de massas no Brasil e posição relevante no mercado de farinha de trigo",
       cnpj: "07206816000115",
@@ -709,7 +709,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ENBR.svg",
       name: "EDP Brasil",
-      code: "ENBR",
+      ticker_symbol_prefix: "ENBR",
       code_cvm: "19763",
       description: "Holding que atua em geração (ES/MG/MS/TO/CE/PA/AP), distribuição (SP/ES/SC) e comercialização (Brasil).",
       cnpj: "03983431000103",
@@ -720,7 +720,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TAEE.svg",
       name: "Taesa",
-      code: "TAEE",
+      ticker_symbol_prefix: "TAEE",
       code_cvm: "20257",
       description: "É uma das principais empresas do setor de transmissão de energia no Brasil.",
       cnpj: "07859971000130",
@@ -731,7 +731,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ALSO.svg",
       name: "Aliansce Sonae",
-      code: "ALSO",
+      ticker_symbol_prefix: "ALSO",
       code_cvm: "22357",
       description: "É a maior administradora de shopping centers do Brasil presente nas cinco regiões do País.",
       cnpj: "05878397000132",
@@ -742,7 +742,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CIEL.svg",
       name: "Cielo",
-      code: "CIEL",
+      ticker_symbol_prefix: "CIEL",
       code_cvm: "21733",
       description: "Líder do setor de meios de pagamento no Brasil, quase 10% do PIB passa por suas máquinas.",
       cnpj: "01027058000191",
@@ -753,7 +753,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SMTO.svg",
       name: "São Martinho",
-      code: "SMTO",
+      ticker_symbol_prefix: "SMTO",
       code_cvm: "20516",
       description: "Compra, cultiva, colhe e processa a principal matéria prima usada na produção de açúcar e álcool",
       cnpj: "51466860000156",
@@ -764,7 +764,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GOAU.svg",
       name: "Metalúrgica Gerdau",
-      code: "GOAU",
+      ticker_symbol_prefix: "GOAU",
       code_cvm: "8656",
       description: "Detém uma participação de controle na Gerdau, uma das maiores empresas de produção e exploração comercial de produtos de ferro, aço e outros metais.",
       cnpj: "92690783000109",
@@ -775,7 +775,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SMFT.svg",
       name: "Smart Fit",
-      code: "SMFT",
+      ticker_symbol_prefix: "SMFT",
       code_cvm: "24260",
       description: "Líder no mercado de academias na América Latina e a quarta maior rede do mundo em número de clientes.",
       cnpj: "07594978000178",
@@ -786,7 +786,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/REDE.svg",
       name: "Rede Energia",
-      code: "REDE",
+      ticker_symbol_prefix: "REDE",
       code_cvm: "3190",
       description: "Holding do setor de energia elétrica que faz parte do grupo Energisa.",
       cnpj: "61584140000149",
@@ -797,7 +797,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GGPS.svg",
       name: "Grupo GPS",
-      code: "GGPS",
+      ticker_symbol_prefix: "GGPS",
       code_cvm: "25712",
       description: "Atua com soluções de Facilities, Segurança, Logística, Engenharia de Utilidades, Serviços Industriais, Alimentação e Serviços de Infraestrutura.",
       cnpj: "09229201000130",
@@ -808,7 +808,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BPAN.svg",
       name: "Banco Pan",
-      code: "BPAN",
+      ticker_symbol_prefix: "BPAN",
       code_cvm: "21199",
       description: "Foco em: crédito ao consumidor, empresas, imobiliário, venda de consórcios e venda de seguros",
       cnpj: "59285411000113",
@@ -819,7 +819,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CASN.svg",
       name: "Casan",
-      code: "CASN",
+      ticker_symbol_prefix: "CASN",
       code_cvm: "16861",
       description: "Responsável por fornecer água potável e serviços de coleta e tratamento de esgoto para os municípios do estado de Santa Catarina.",
       cnpj: "82508433000117",
@@ -830,7 +830,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRFS.svg",
       name: "BRF",
-      code: "BRFS",
+      ticker_symbol_prefix: "BRFS",
       code_cvm: "16292",
       description: "Uma das maiores cias de alimentos do mundo e detém marcas como Sadia, Perdigão, Qualy, entre outras.",
       cnpj: "01838723000127",
@@ -841,7 +841,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CEEB.svg",
       name: "Coelba",
-      code: "CEEB",
+      ticker_symbol_prefix: "CEEB",
       code_cvm: "14524",
       description: "Distribuidora de energia elétrica na Bahia.",
       cnpj: "15139629000194",
@@ -852,7 +852,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/INTB.svg",
       name: "Intelbras",
-      code: "INTB",
+      ticker_symbol_prefix: "INTB",
       code_cvm: "25453",
       description: "Produtos e soluções em segurança, redes e telecomunicações como gerenciamento de imagem, centrais condominiais, segurança eletrônica, switches e telefonia.",
       cnpj: "82901000000127",
@@ -863,7 +863,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/USIM.svg",
       name: "Usiminas",
-      code: "USIM",
+      ticker_symbol_prefix: "USIM",
       code_cvm: "14320",
       description: "Um dos maiores grupos siderúrgicos brasileiros com atuação em diversos setores da cadeia de valor do aço.",
       cnpj: "60894730000105",
@@ -874,7 +874,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRAP.svg",
       name: "Bradespar",
-      code: "BRAP",
+      ticker_symbol_prefix: "BRAP",
       code_cvm: "18724",
       description: "Holding de investimentos que detém participação relevante na Vale.",
       cnpj: "03847461000192",
@@ -885,7 +885,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SOMA.svg",
       name: "Grupo Soma",
-      code: "SOMA",
+      ticker_symbol_prefix: "SOMA",
       code_cvm: "25011",
       description: "Holding que controla e opera várias marcas de moda, principalmente no segmento de roupas femininas.",
       cnpj: "10285590000108",
@@ -896,7 +896,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ALUP.svg",
       name: "Alupar",
-      code: "ALUP",
+      ticker_symbol_prefix: "ALUP",
       code_cvm: "21490",
       description: "Holding que atua nos setores de transmissão e geração de energia elétrica (também na Colômbia e Peru)",
       cnpj: "08364948000138",
@@ -907,7 +907,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ARZZ.svg",
       name: "Arezzo",
-      code: "ARZZ",
+      ticker_symbol_prefix: "ARZZ",
       code_cvm: "22349",
       description: "Líder no setor do Brasil e dona de marcas como Arezzo, Schutz, Reserva, Anacapri, Alexandre Birman, entre outras.",
       cnpj: "16590234000176",
@@ -918,7 +918,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SIMH.svg",
       name: "Simpar",
-      code: "SIMH",
+      ticker_symbol_prefix: "SIMH",
       code_cvm: "25003",
       description: "Holding que controla 6 empresas independentes, como: JSL, Vamos, CS Brasil, Original Concessionárias, BBC e Movida.",
       cnpj: "07415333000120",
@@ -929,7 +929,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FLRY.svg",
       name: "Fleury",
-      code: "FLRY",
+      ticker_symbol_prefix: "FLRY",
       code_cvm: "21881",
       description: "Uma das maiores e mais respeitadas empresas de medicina e saúde do Brasil",
       cnpj: "60840055000131",
@@ -940,7 +940,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/STBP.svg",
       name: "Santos Brasil",
-      code: "STBP",
+      ticker_symbol_prefix: "STBP",
       code_cvm: "17892",
       description: "Referência na operação de contêineres na América do Sul e conta com três terminais (SP, SC e PA)",
       cnpj: "02762121000104",
@@ -951,7 +951,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SLCE.svg",
       name: "SLC Agrícola",
-      code: "SLCE",
+      ticker_symbol_prefix: "SLCE",
       code_cvm: "20745",
       description: "Produtora de commodities agrícolas e focada em algodão, soja e milho.",
       cnpj: "89096457000155",
@@ -962,7 +962,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CSMG.svg",
       name: "Copasa",
-      code: "CSMG",
+      ticker_symbol_prefix: "CSMG",
       code_cvm: "19445",
       description: "Atua principalmente no abastecimento de água e na coleta e tratamento de esgoto no estado de MG.",
       cnpj: "17281106000103",
@@ -973,7 +973,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/UNIP.svg",
       name: "Unipar",
-      code: "UNIP",
+      ticker_symbol_prefix: "UNIP",
       code_cvm: "11592",
       description: "Atuação no setor de soda, cloro e derivados podendo atuar com participação em outras sociedades.",
       cnpj: "33958695000178",
@@ -984,7 +984,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ALPA.svg",
       name: "Alpargatas",
-      code: "ALPA",
+      ticker_symbol_prefix: "ALPA",
       code_cvm: "10456",
       description: "Fundada há mais de 100 anos e dona da famosa Havaianas.",
       cnpj: "61079117000105",
@@ -995,7 +995,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AESB.svg",
       name: "AES Brasil",
-      code: "AESB",
+      ticker_symbol_prefix: "AESB",
       code_cvm: "25640",
       description: "É uma geradora de energia elétrica 100% renovável e possui um portfólio diversificado em vários Estados.",
       cnpj: "37663076000107",
@@ -1006,7 +1006,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DASA.svg",
       name: "Dasa",
-      code: "DASA",
+      ticker_symbol_prefix: "DASA",
       code_cvm: "19623",
       description: "Uma das principais empresas do setor de medicina diagnóstica no Brasil, com uma ampla gama de exames laboratoriais e de imagem.",
       cnpj: "61486650000183",
@@ -1017,7 +1017,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EKTR.svg",
       name: "Elektro",
-      code: "EKTR",
+      ticker_symbol_prefix: "EKTR",
       code_cvm: "17485",
       description: "Atua na distribuição, comercialização e transmissão de energia elétrica.",
       cnpj: "02328280000197",
@@ -1028,7 +1028,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CYRE.svg",
       name: "Cyrela Realty",
-      code: "CYRE",
+      ticker_symbol_prefix: "CYRE",
       code_cvm: "14460",
       description: "Focada em edifícios residenciais e comerciais de alto padrão em diferentes regiões do Brasil",
       cnpj: "73178600000118",
@@ -1039,7 +1039,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DXCO.svg",
       name: "Dexco",
-      code: "DXCO",
+      ticker_symbol_prefix: "DXCO",
       code_cvm: "21091",
       description: "Atua no varejo e distribuição de insumos para construção civil (Deca e Hydra) e marcenaria (MDF).",
       cnpj: "97837181000147",
@@ -1050,7 +1050,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BNBR.svg",
       name: "Banco do Nordeste",
-      code: "BNBR",
+      ticker_symbol_prefix: "BNBR",
       code_cvm: "1228",
       description: "Maior banco de desenvolvimento regional da América Latina e atua como Banco de Desenvolvimento da Região Nordeste.",
       cnpj: "07237373000120",
@@ -1061,7 +1061,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/WHRL.svg",
       name: "Whirlpool",
-      code: "WHRL",
+      ticker_symbol_prefix: "WHRL",
       code_cvm: "14346",
       description: "Presente no Brasil com as marcas Brastemp, Consul e KitchenAid",
       cnpj: "59105999000186",
@@ -1072,7 +1072,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GRND.svg",
       name: "Grendene",
-      code: "GRND",
+      ticker_symbol_prefix: "GRND",
       code_cvm: "19615",
       description: "Uma das maiores produtoras mundiais de calçados e detém marcas como Melissa, Rider, Ipanema e Zizou.",
       cnpj: "89850341000160",
@@ -1083,7 +1083,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MEGA.svg",
       name: "Omega Energia",
-      code: "MEGA",
+      ticker_symbol_prefix: "MEGA",
       code_cvm: "26441",
       description: "Atua no desenvolvimento, implantação, operação e manutenção de projetos de geração de energia limpa.",
       cnpj: "42500384000151",
@@ -1094,7 +1094,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ODPV.svg",
       name: "Odontoprev",
-      code: "ODPV",
+      ticker_symbol_prefix: "ODPV",
       code_cvm: "20125",
       description: "Líder em planos odontológicos na América Latina.",
       cnpj: "58119199000151",
@@ -1105,7 +1105,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VIVA.svg",
       name: "Vivara",
-      code: "VIVA",
+      ticker_symbol_prefix: "VIVA",
       code_cvm: "24805",
       description: "Líder em market share no varejo especialista em joias e relógios no Brasil.",
       cnpj: "33839910000111",
@@ -1116,7 +1116,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RRRP.svg",
       name: "3R Petroleum",
-      code: "RRRP",
+      ticker_symbol_prefix: "RRRP",
       code_cvm: "25291",
       description: "Foco no redesenvolvimento de campos maduros em produção localizados em terra (onshore) e em águas rasas (shallow water).",
       cnpj: "12091809000155",
@@ -1127,7 +1127,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BEEF.svg",
       name: "Minerva",
-      code: "BEEF",
+      ticker_symbol_prefix: "BEEF",
       code_cvm: "20931",
       description: "Uma das líderes em produção de carne bovina de alta qualidade e a maior exportadora de carne bovina na América do Sul.",
       cnpj: "67620377000114",
@@ -1138,7 +1138,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SAPR.svg",
       name: "Sanepar",
-      code: "SAPR",
+      ticker_symbol_prefix: "SAPR",
       code_cvm: "18627",
       description: "Responsável pelo fornecimento de água tratada, coleta e tratamento de esgoto e serviços relacionados no estado do Paraná.",
       cnpj: "76484013000145",
@@ -1149,7 +1149,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AZUL.svg",
       name: "Azul",
-      code: "AZUL",
+      ticker_symbol_prefix: "AZUL",
       code_cvm: "24112",
       description: "Oferece serviços de transporte aéreo de passageiros, cargas e encomendas para diversos destinos nacionais e internacionais.",
       cnpj: "09305994000129",
@@ -1160,7 +1160,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TTEN.svg",
       name: "3tentos",
-      code: "TTEN",
+      ticker_symbol_prefix: "TTEN",
       code_cvm: "25950",
       description: "Oferta ao agricultor sementes, defensivos, fertilizantes, recebimento de grãos, além de outras soluções.",
       cnpj: "94813102000170",
@@ -1171,7 +1171,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/INBR.svg",
       name: "Inter&Co",
-      code: "INBR",
+      ticker_symbol_prefix: "INBR",
       code_cvm: "57886",
       description: "Um dos primeiros bancos digitais do Brasil e conhecido pela ausência de taxas sobre os serviços básicos.",
       cnpj: "42737954000121",
@@ -1182,7 +1182,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRSR.svg",
       name: "Banrisul",
-      code: "BRSR",
+      ticker_symbol_prefix: "BRSR",
       code_cvm: "1210",
       description: "Tem a missão de ser o agente financeiro do Estado para promover o desenvolvimento econômico e social do Rio Grande do Sul.",
       cnpj: "92702067000196",
@@ -1193,7 +1193,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VVEO.svg",
       name: "Viveo",
-      code: "VVEO",
+      ticker_symbol_prefix: "VVEO",
       code_cvm: "25682",
       description: "Líder nacional na distribuição de materiais e medicamentos hospitalares.",
       cnpj: "12420164000157",
@@ -1204,7 +1204,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/COGN.svg",
       name: "Cogna",
-      code: "COGN",
+      ticker_symbol_prefix: "COGN",
       code_cvm: "17973",
       description: "Uma das maiores organizações educacionais privadas do Brasil e do mundo (Ensino Básico/Superior)",
       cnpj: "02800026000140",
@@ -1215,7 +1215,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MRVE.svg",
       name: "MRV Engenharia",
-      code: "MRVE",
+      ticker_symbol_prefix: "MRVE",
       code_cvm: "20915",
       description: "Maior incorporadora e construtora brasileira no segmento de empreendimentos residenciais populares",
       cnpj: "08343492000120",
@@ -1226,7 +1226,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LEVE.svg",
       name: "Mahle Metal Leve",
-      code: "LEVE",
+      ticker_symbol_prefix: "LEVE",
       code_cvm: "8575",
       description: "Atua na fabricação e comercialização de componentes de motores à combustão interna e filtros automotivos.",
       cnpj: "60476884000187",
@@ -1237,7 +1237,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PORT.svg",
       name: "Wilson Sons",
-      code: "PORT",
+      ticker_symbol_prefix: "PORT",
       code_cvm: "26247",
       description: "Administração dos bens da Companhia e participação no capital de outras sociedades.",
       cnpj: "33130691000105",
@@ -1248,7 +1248,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RECV.svg",
       name: "PetroReconcavo",
-      code: "RECV",
+      ticker_symbol_prefix: "RECV",
       code_cvm: "25780",
       description: "Uma das principais operadoras independentes com foco em campos maduros em terra no Brasil.",
       cnpj: "03342704000130",
@@ -1259,7 +1259,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BSLI.svg",
       name: "Banco de Brasília",
-      code: "BSLI",
+      ticker_symbol_prefix: "BSLI",
       code_cvm: "14206",
       description: "Atua em todo o DF, possuindo também pontos em RJ, SP, MT, MS, GO e MG.",
       cnpj: "00000208000100",
@@ -1270,7 +1270,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/POMO.svg",
       name: "Marcopolo",
-      code: "POMO",
+      ticker_symbol_prefix: "POMO",
       code_cvm: "8451",
       description: "Uma das maiores fabricantes de carrocerias de ônibus do mundo.",
       cnpj: "88611835000129",
@@ -1281,7 +1281,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ONCO.svg",
       name: "Oncoclínicas",
-      code: "ONCO",
+      ticker_symbol_prefix: "ONCO",
       code_cvm: "26123",
       description: "Considerado um dos maiores e mais respeitados grupos de oncologia, hematologia e radioterapia da América Latina.",
       cnpj: "12104241000402",
@@ -1292,7 +1292,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/YDUQ.svg",
       name: "YDUQS",
-      code: "YDUQ",
+      ticker_symbol_prefix: "YDUQ",
       code_cvm: "21016",
       description: "Uma das maiores organizações privadas no setor de ensino superior no Brasil (alunos matriculados).",
       cnpj: "08807432000110",
@@ -1303,7 +1303,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ARML.svg",
       name: "Armac",
-      code: "ARML",
+      ticker_symbol_prefix: "ARML",
       code_cvm: "26069",
       description: "Líder nacional no mercado de locação de máquinas (plataformas elevatórias, caminhões-pipa, basculantes e, principalmente, máquinas de linha amarela).",
       cnpj: "00242184000104",
@@ -1314,7 +1314,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LOGN.svg",
       name: "Log-in",
-      code: "LOGN",
+      ticker_symbol_prefix: "LOGN",
       code_cvm: "20710",
       description: "Atua com Navegação Costeira, Terminal Portuário (Terminal de Vila Velha no ES) e Terminais Intermodais",
       cnpj: "42278291000124",
@@ -1325,7 +1325,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MOAR.svg",
       name: "Monteiro Aranha",
-      code: "MOAR",
+      ticker_symbol_prefix: "MOAR",
       code_cvm: "8893",
       description: "Grupo empresarial do RJ especializado em investimentos (acionista da Klabin, grupo Ultra e projetos imobiliários).",
       cnpj: "33102476000192",
@@ -1336,7 +1336,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LWSA.svg",
       name: "Locaweb",
-      code: "LWSA",
+      ticker_symbol_prefix: "LWSA",
       code_cvm: "24910",
       description: "Líder em hospedagem de sites no Brasil, a Locaweb oferece um portfólio completo de serviços de internet com foco no sucesso dos seus clientes.",
       cnpj: "02351877000152",
@@ -1347,7 +1347,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ECOR.svg",
       name: "Ecorodovias",
-      code: "ECOR",
+      ticker_symbol_prefix: "ECOR",
       code_cvm: "19453",
       description: "Atua no planejamento, construção, operação e manutenção de rodovias e sistemas de transporte rodoviário.",
       cnpj: "04149454000180",
@@ -1358,7 +1358,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MRFG.svg",
       name: "Marfrig",
-      code: "MRFG",
+      ticker_symbol_prefix: "MRFG",
       code_cvm: "20788",
       description: "É uma das maiores empresas de proteína animal do mundo, com a produção e processamento de carnes bovina, suína, de frango e de ovinos.",
       cnpj: "03853896000140",
@@ -1369,7 +1369,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PCAR.svg",
       name: "GPA",
-      code: "PCAR",
+      ticker_symbol_prefix: "PCAR",
       code_cvm: "14826",
       description: "Uma das maiores empresas de varejo alimentício do Brasil.",
       cnpj: "47508411000156",
@@ -1380,7 +1380,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FESA.svg",
       name: "Ferbasa",
-      code: "FESA",
+      ticker_symbol_prefix: "FESA",
       code_cvm: "3069",
       description: "Líder em produção de ferroligas e única produtora integrada de ferrocromo das Américas (mineração).",
       cnpj: "15141799000103",
@@ -1391,7 +1391,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CURY.svg",
       name: "Cury Construtora",
-      code: "CURY",
+      ticker_symbol_prefix: "CURY",
       code_cvm: "25100",
       description: "Foco na incorporação e construção de empreendimentos residenciais do programa Minha Casa Minha Vida e SBPE.",
       cnpj: "08797760000183",
@@ -1402,7 +1402,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/COCE.svg",
       name: "Coelce",
-      code: "COCE",
+      ticker_symbol_prefix: "COCE",
       code_cvm: "14869",
       description: "Atua principalmente na distribuição de energia elétrica no estado do Ceará.",
       cnpj: "07047251000170",
@@ -1413,7 +1413,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VULC.svg",
       name: "Vulcabras",
-      code: "VULC",
+      ticker_symbol_prefix: "VULC",
       code_cvm: "11762",
       description: "Atua com marcas como Mizuno, Olympikus, Under Armour e Botas Vulcabras.",
       cnpj: "50926955000142",
@@ -1424,7 +1424,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BOAS.svg",
       name: "Boa Vista",
-      code: "BOAS",
+      ticker_symbol_prefix: "BOAS",
       code_cvm: "25135",
       description: "Acredita ser a segunda maior empresa no setor de gestão e análise de dados (análise de crédito/score) no Brasil.",
       cnpj: "11725176000127",
@@ -1435,7 +1435,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EZTC.svg",
       name: "Eztec",
-      code: "EZTC",
+      ticker_symbol_prefix: "EZTC",
       code_cvm: "20770",
       description: "Empreendimentos residenciais de médio a alto-padrão e comerciais (foco na cidade de SP e Região)",
       cnpj: "08312229000173",
@@ -1446,7 +1446,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MOVI.svg",
       name: "Movida",
-      code: "MOVI",
+      ticker_symbol_prefix: "MOVI",
       code_cvm: "23825",
       description: "Segunda maior companhia de locação de veículos do Brasil em tamanho de frota e receita.",
       cnpj: "21314559000166",
@@ -1457,7 +1457,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CSRN.svg",
       name: "Cosern",
-      code: "CSRN",
+      ticker_symbol_prefix: "CSRN",
       code_cvm: "18139",
       description: "Atua com distribuição de energia elétrica no estado do Rio Grande do Norte.",
       cnpj: "08324196000181",
@@ -1468,7 +1468,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VIIA.svg",
       name: "Via",
-      code: "VIIA",
+      ticker_symbol_prefix: "VIIA",
       code_cvm: "6505",
       description: "Controla as marcas Casas Bahia, Ponto, Extra.com.br, Bartira, entre outras.",
       cnpj: "33041260065290",
@@ -1479,7 +1479,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MATD.svg",
       name: "Hospital Mater Dei",
-      code: "MATD",
+      ticker_symbol_prefix: "MATD",
       code_cvm: "25690",
       description: "Presta serviços hospitalares e oncológicos, sendo uma referência nacional em saúde e a maior rede hospitalar privada de Minas Gerais em número de leitos.",
       cnpj: "16676520000159",
@@ -1490,7 +1490,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ABCB.svg",
       name: "Banco ABC",
-      code: "ABCB",
+      ticker_symbol_prefix: "ABCB",
       code_cvm: "20958",
       description: "Especializado na concessão de crédito e serviços para empresas de médio a grande porte.",
       cnpj: "28195667000106",
@@ -1501,7 +1501,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TUPY.svg",
       name: "Tupy",
-      code: "TUPY",
+      ticker_symbol_prefix: "TUPY",
       code_cvm: "6343",
       description: "Atua na produção de componentes para o setor automotivo (blocos e cabeçotes de motor, peças para sistemas de freio, transmissão, direção, eixo e suspensão).",
       cnpj: "84683374000300",
@@ -1512,7 +1512,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BAZA.svg",
       name: "Banco da Amazônia",
-      code: "BAZA",
+      ticker_symbol_prefix: "BAZA",
       code_cvm: "922",
       description: "Atua na região Norte do país e administra alguns fundos Constitucionais como o FAT, FDA, FMM e FNO.",
       cnpj: "04902979000144",
@@ -1523,7 +1523,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ENAT.svg",
       name: "Enauta",
-      code: "ENAT",
+      ticker_symbol_prefix: "ENAT",
       code_cvm: "22365",
       description: "Atua principalmente no setor de exploração e produção offshore (em alto-mar).",
       cnpj: "11669021000110",
@@ -1534,7 +1534,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BLAU.svg",
       name: "Blau Farmacêutica",
-      code: "BLAU",
+      ticker_symbol_prefix: "BLAU",
       code_cvm: "24627",
       description: "É uma indústria farmacêutica líder no segmento institucional e pioneira em biotecnologia, com portfólio proprietário de medicamentos de alta complexidade.",
       cnpj: "58430828000160",
@@ -1545,7 +1545,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RAPT.svg",
       name: "Randoncorp",
-      code: "RAPT",
+      ticker_symbol_prefix: "RAPT",
       code_cvm: "14109",
       description: "Atua no setor automotivo, especialmente na fabricação de implementos rodoviários, como componentes para o transporte de carga.",
       cnpj: "89086144000116",
@@ -1556,7 +1556,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CBEE.svg",
       name: "Ampla Energia",
-      code: "CBEE",
+      ticker_symbol_prefix: "CBEE",
       code_cvm: "3050",
       description: "Faz parte da Enel Distribuição Rio e atua com distribuição de energia elétrica no Rio de Janeiro.",
       cnpj: "33050071000158",
@@ -1567,7 +1567,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CBAV.svg",
       name: "CBA",
-      code: "CBAV",
+      ticker_symbol_prefix: "CBAV",
       code_cvm: "25984",
       description: "Extração de minério de alumínio, serviços de usinagem, caldeira e montagem de maquinário.",
       cnpj: "61409892000173",
@@ -1578,7 +1578,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PETZ.svg",
       name: "Petz",
-      code: "PETZ",
+      ticker_symbol_prefix: "PETZ",
       code_cvm: "25089",
       description: "É uma das maiores redes de pet shops do país, oferecendo uma ampla gama de produtos e serviços para animais de estimação.",
       cnpj: "18328118000109",
@@ -1589,7 +1589,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/IGTI.svg",
       name: "Iguatemi",
-      code: "IGTI",
+      ticker_symbol_prefix: "IGTI",
       code_cvm: "8672",
       description: "É uma das principais empresas full-service de shopping centers do país em termos de ABL.",
       cnpj: "60543816000193",
@@ -1600,7 +1600,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FRAS.svg",
       name: "Frasle Mobility",
-      code: "FRAS",
+      ticker_symbol_prefix: "FRAS",
       code_cvm: "6211",
       description: "Produz um dos mais amplos portfólios do setor de transporte de cargas e possui atendimento em mais de 100 países.",
       cnpj: "88610126000129",
@@ -1611,7 +1611,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BEES.svg",
       name: "Banestes",
-      code: "BEES",
+      ticker_symbol_prefix: "BEES",
       code_cvm: "1155",
       description: "Detém a maior rede bancária do estado do Espírito Santo.",
       cnpj: "28127603000178",
@@ -1622,7 +1622,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GPAR.svg",
       name: "Celg",
-      code: "GPAR",
+      ticker_symbol_prefix: "GPAR",
       code_cvm: "21393",
       description: "Desde fevereiro de 2017, a Celg faz parte do Grupo Enel e agora passa a se chamar Enel Distribuição Goiás.",
       cnpj: "08560444000193",
@@ -1633,7 +1633,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/JHSF.svg",
       name: "JHSF",
-      code: "JHSF",
+      ticker_symbol_prefix: "JHSF",
       code_cvm: "20605",
       description: "Opera em shoppings e hotéis conhecidos como: Cidade Jardim, Bela Vista, Ponta Negra e Fasano",
       cnpj: "08294224000165",
@@ -1644,7 +1644,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SBFG.svg",
       name: "Grupo SBF",
-      code: "SBFG",
+      ticker_symbol_prefix: "SBFG",
       code_cvm: "24694",
       description: "O Grupo SBF controla as lojas Centauro, ByTennis, Almax Sports e expansão das Nike Stores no país.",
       cnpj: "13217485000111",
@@ -1655,7 +1655,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GUAR.svg",
       name: "Guararapes",
-      code: "GUAR",
+      ticker_symbol_prefix: "GUAR",
       code_cvm: "4669",
       description: "Conhecida principalmente pela sua marca Riachuelo, que é uma das maiores redes de lojas de departamento do país.",
       cnpj: "08402943000152",
@@ -1666,7 +1666,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ORVR.svg",
       name: "Orizon",
-      code: "ORVR",
+      ticker_symbol_prefix: "ORVR",
       code_cvm: "25550",
       description: "Soluções integradas de gestão e beneficiamento de resíduos, que vão desde a reciclagem até a geração de biogás e energia elétrica.",
       cnpj: "11421994000136",
@@ -1677,7 +1677,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/IRBR.svg",
       name: "IRB Brasil",
-      code: "IRBR",
+      ticker_symbol_prefix: "IRBR",
       code_cvm: "24180",
       description: "Líder no mercado ressegurador brasileiro e atua com negócios em vários países (foco na AL e sede no RJ). O Governo Federal possui uma Golden Share.",
       cnpj: "33376989000191",
@@ -1688,7 +1688,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MILS.svg",
       name: "Mills",
-      code: "MILS",
+      ticker_symbol_prefix: "MILS",
       code_cvm: "22012",
       description: "Um dos maiores prestadores de serviços especializados de engenharia no Brasil (concretagem, tubos, etc)",
       cnpj: "27093558000115",
@@ -1699,7 +1699,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DIRR.svg",
       name: "Direcional",
-      code: "DIRR",
+      ticker_symbol_prefix: "DIRR",
       code_cvm: "21350",
       description: "Uma das 5 maiores construtoras do Brasil, com foco em empreendimentos populares nas regiões NO, CO e SU",
       cnpj: "16614075000100",
@@ -1710,7 +1710,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AALR.svg",
       name: "Alliar",
-      code: "AALR",
+      ticker_symbol_prefix: "AALR",
       code_cvm: "24058",
       description: "Atua na prestação de serviços de diagnóstico por imagem, análises clínicas, anatomia patológica e medicina nuclear.",
       cnpj: "42771949000135",
@@ -1721,7 +1721,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CAML.svg",
       name: "Camil",
-      code: "CAML",
+      ticker_symbol_prefix: "CAML",
       code_cvm: "24228",
       description: "Dona de várias marcas de grãos, açúcar e pescado, sendo algumas como: Camil, União, Coqueiro, Pai João, Príncipe e Carreteiro.",
       cnpj: "64904295000103",
@@ -1732,7 +1732,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LIGT.svg",
       name: "Light",
-      code: "LIGT",
+      ticker_symbol_prefix: "LIGT",
       code_cvm: "19879",
       description: "Atua principalmente na distribuição, geração e comercialização de energia elétrica na região metropolitana do Rio de Janeiro.",
       cnpj: "03378521000175",
@@ -1743,7 +1743,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HBSA.svg",
       name: "Hidrovias do Brasil",
-      code: "HBSA",
+      ticker_symbol_prefix: "HBSA",
       code_cvm: "22675",
       description: "Empresa de logística integrada com foco no aproveitamento do transporte hidroviário em toda a América Latina.",
       cnpj: "12648327000153",
@@ -1754,7 +1754,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AURA.svg",
       name: "Aura Minerals",
-      code: "AURA",
+      ticker_symbol_prefix: "AURA",
       code_cvm: "80187",
       description: "Produção de ouro e cobre, focada no desenvolvimento e operação de projetos de tamanho intermediário nas Américas.",
       cnpj: "07857093000114",
@@ -1765,7 +1765,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/JSLG.svg",
       name: "JSL",
-      code: "JSLG",
+      ticker_symbol_prefix: "JSLG",
       code_cvm: "22020",
       description: "Serviços desde transporte de cargas, até a terceirização total das cadeias logísticas em todo o país",
       cnpj: "52548435000179",
@@ -1776,7 +1776,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/JALL.svg",
       name: "Jalles Machado",
-      code: "JALL",
+      ticker_symbol_prefix: "JALL",
       code_cvm: "25496",
       description: "Diversificada na produção de açúcar e álcool, cogeração de energia elétrica, saneantes, levedura e látex.",
       cnpj: "02635522000195",
@@ -1787,7 +1787,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EMAE.svg",
       name: "Emae",
-      code: "EMAE",
+      ticker_symbol_prefix: "EMAE",
       code_cvm: "16993",
       description: "Opera um sistema hidráulico e gerador de eletricidade (SP, Médio Tietê e Vale do Rio Paraíba do Sul).",
       cnpj: "02302101000142",
@@ -1798,7 +1798,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ELMD.svg",
       name: "Eletromidia",
-      code: "ELMD",
+      ticker_symbol_prefix: "ELMD",
       code_cvm: "25569",
       description: "Prestação de serviços de distribuição e comercialização de painés eletrônicos e publicidade.",
       cnpj: "09347516000181",
@@ -1809,7 +1809,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GEPA.svg",
       name: "Paranapanema Energia",
-      code: "GEPA",
+      ticker_symbol_prefix: "GEPA",
       code_cvm: "18368",
       description: "É uma empresa brasileira do setor de energia elétrica, também está envolvida na produção de gás.",
       cnpj: "02998301000181",
@@ -1820,7 +1820,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LOGG.svg",
       name: "Log CP",
-      code: "LOGG",
+      ticker_symbol_prefix: "LOGG",
       code_cvm: "23272",
       description: "É uma desenvolvedora de ativos logísticos greenfield e locadora de galpões de alto padrão no Brasil.",
       cnpj: "09041168000110",
@@ -1831,7 +1831,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AMBP.svg",
       name: "Ambipar",
-      code: "AMBP",
+      ticker_symbol_prefix: "AMBP",
       code_cvm: "24961",
       description: "Atua em diversos segmentos para oferecer serviços e produtos completos voltados à gestão ambiental.",
       cnpj: "12648266000124",
@@ -1842,7 +1842,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AGRO.svg",
       name: "BrasilAgro",
-      code: "AGRO",
+      ticker_symbol_prefix: "AGRO",
       code_cvm: "20036",
       description: "Aquisição, desenvolvimento, exploração e comercialização de propriedades rurais para a agropecuária.",
       cnpj: "07628528000159",
@@ -1853,7 +1853,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LAND.svg",
       name: "Terra Santa",
-      code: "LAND",
+      ticker_symbol_prefix: "LAND",
       code_cvm: "26000",
       description: "Atua com o arrendamento de 7 fazendas destinadas à produção agrícola em geral, sendo 5 delas arrendadas por 20 anos para a SLC Agrícola.",
       cnpj: "40337136000106",
@@ -1864,7 +1864,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SHUL.svg",
       name: "Schulz",
-      code: "SHUL",
+      ticker_symbol_prefix: "SHUL",
       code_cvm: "14664",
       description: "Atuação internacional e ocupa uma posição de destaque nos segmentos de Compressores e Automotivo.",
       cnpj: "84693183000168",
@@ -1875,7 +1875,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CEED.svg",
       name: "CEEE",
-      code: "CEED",
+      ticker_symbol_prefix: "CEED",
       code_cvm: "20648",
       description: "Atua com distribuição de Energia Elétrica no Rio Grande do Sul.",
       cnpj: "08467115000100",
@@ -1886,7 +1886,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CLSC.svg",
       name: "Celesc",
-      code: "CLSC",
+      ticker_symbol_prefix: "CLSC",
       code_cvm: "2461",
       description: "Holding que atua na distribuição e geração de energia em Santa Catarina.",
       cnpj: "83878892000155",
@@ -1897,7 +1897,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MLAS.svg",
       name: "Multilaser",
-      code: "MLAS",
+      ticker_symbol_prefix: "MLAS",
       code_cvm: "26034",
       description: "Um dos maiores players do segmento de eletrônicos e de suprimentos de informática nacional.",
       cnpj: "59717553000102",
@@ -1908,7 +1908,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RANI.svg",
       name: "Irani",
-      code: "RANI",
+      ticker_symbol_prefix: "RANI",
       code_cvm: "2429",
       description: "Uma das principais produtoras brasileiras de papel para embalagens e embalagem de papelão ondulado.",
       cnpj: "92791243000103",
@@ -1919,7 +1919,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TASA.svg",
       name: "Taurus Armas",
-      code: "TASA",
+      ticker_symbol_prefix: "TASA",
       code_cvm: "6173",
       description: "Conhecida por sua produção de armas de fogo, incluindo revólveres, pistolas e rifles, tanto para uso civil quanto policial e militar.",
       cnpj: "92781335000102",
@@ -1930,7 +1930,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MYPK.svg",
       name: "Iochpe-Maxion",
-      code: "MYPK",
+      ticker_symbol_prefix: "MYPK",
       code_cvm: "11932",
       description: "Líder mundial na produção de rodas automotivas e um dos principais produtores de componentes estruturais automotivos nas Américas.",
       cnpj: "61156113000175",
@@ -1941,7 +1941,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MODL.svg",
       name: "Banco Modal",
-      code: "MODL",
+      ticker_symbol_prefix: "MODL",
       code_cvm: "25755",
       description: "É um Banco de Investimentos com atuação em estruturação, coordenação de grandes operações no mercado nacional.",
       cnpj: "30723886000162",
@@ -1952,7 +1952,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SQIA.svg",
       name: "Sinqia",
-      code: "SQIA",
+      ticker_symbol_prefix: "SQIA",
       code_cvm: "22799",
       description: "Líder em desenvolvimento de softwares para o setor financeiro no Brasil.",
       cnpj: "04065791000199",
@@ -1963,7 +1963,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TFCO.svg",
       name: "Track Field",
-      code: "TFCO",
+      ticker_symbol_prefix: "TFCO",
       code_cvm: "25208",
       description: "Maior marca brasileira de esporte no setor de vestuário (fitness, lifestyle, moda praia, calçados e acessórios).",
       cnpj: "59418806000147",
@@ -1974,7 +1974,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PNVL.svg",
       name: "Grupo Panvel",
-      code: "PNVL",
+      ticker_symbol_prefix: "PNVL",
       code_cvm: "9342",
       description: "Uma das principais distribuidoras de medicamentos do Brasil e marcas como Panvel (lojas), Dimed (distribuição) e Lifar (fabricação).",
       cnpj: "92665611000177",
@@ -1985,7 +1985,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PLPL.svg",
       name: "Plano&Plano",
-      code: "PLPL",
+      ticker_symbol_prefix: "PLPL",
       code_cvm: "25070",
       description: "É uma joint venture da Cyrela e uma das dez mais expressivas empresas de incorporação e construção do Brasil.",
       cnpj: "24230275000180",
@@ -1996,7 +1996,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BPAR.svg",
       name: "Banpara",
-      code: "BPAR",
+      ticker_symbol_prefix: "BPAR",
       code_cvm: "1171",
       description: "O Banpará é um banco múltiplo que tem como objetivo o desenvolvimento socioeconômico do Pará.",
       cnpj: "04913711000108",
@@ -2007,7 +2007,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PGMN.svg",
       name: "Pague Menos",
-      code: "PGMN",
+      ticker_symbol_prefix: "PGMN",
       code_cvm: "22608",
       description: "Rede de drogarias presente em todos os estados do Brasil.",
       cnpj: "06626253000151",
@@ -2018,7 +2018,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CEAB.svg",
       name: "C&A",
-      code: "CEAB",
+      ticker_symbol_prefix: "CEAB",
       code_cvm: "24848",
       description: "Uma das marcas de loja de roupas mais conhecidas no Brasil.",
       cnpj: "45242914000105",
@@ -2029,7 +2029,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ROMI.svg",
       name: "Indústrias Romi",
-      code: "ROMI",
+      ticker_symbol_prefix: "ROMI",
       code_cvm: "7510",
       description: "Atua com Máquinas de Torneamento, Usinagem, Mandrilhadoras, Processamento de Plásticos e ferro fundido.",
       cnpj: "56720428000163",
@@ -2040,7 +2040,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VITT.svg",
       name: "Vittia",
-      code: "VITT",
+      ticker_symbol_prefix: "VITT",
       code_cvm: "25763",
       description: "Dedicada à produção de insumos de alta tecnologia para a agricultura, principalmente fertilizantes.",
       cnpj: "45365558000109",
@@ -2051,7 +2051,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/KEPL.svg",
       name: "Kepler",
-      code: "KEPL",
+      ticker_symbol_prefix: "KEPL",
       code_cvm: "7870",
       description: "Focada no setor metal-mecânico e posição mundial de destaque em sistemas de armazenagem de grãos",
       cnpj: "91983056000169",
@@ -2062,7 +2062,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BMGB.svg",
       name: "Banco BMG",
-      code: "BMGB",
+      ticker_symbol_prefix: "BMGB",
       code_cvm: "24600",
       description: "Antigo Banco de Minas Gerais, focado em crédito pessoa física e jurídica e pioneiro em empréstimo consignado no Brasil.",
       cnpj: "61186680000174",
@@ -2073,7 +2073,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FIQE.svg",
       name: "Unifique",
-      code: "FIQE",
+      ticker_symbol_prefix: "FIQE",
       code_cvm: "26050",
       description: "Atua com diversos serviços, como: internet banda larga, telefonia digital, TV por assinatura, serviços de Data Center e telefonia fixa.",
       cnpj: "02255187000108",
@@ -2084,7 +2084,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TGMA.svg",
       name: "Tegma",
-      code: "TGMA",
+      ticker_symbol_prefix: "TGMA",
       code_cvm: "20800",
       description: "Atua na logística de veículos novos para praticamente todas as montadoras instaladas no país.",
       cnpj: "02351144000118",
@@ -2095,7 +2095,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TELB.svg",
       name: "Telebrás",
-      code: "TELB",
+      ticker_symbol_prefix: "TELB",
       code_cvm: "11258",
       description: "Autorizada a usar e manter a redes de suporte de serviços de telecomunicações da administração federal.",
       cnpj: "00336701000104",
@@ -2106,7 +2106,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ANIM.svg",
       name: "Anima",
-      code: "ANIM",
+      ticker_symbol_prefix: "ANIM",
       code_cvm: "23248",
       description: "É uma das maiores organizações educacionais privadas de ensino superior do País, tanto em termos de receita como em número de estudantes matriculados.",
       cnpj: "09288252000132",
@@ -2117,7 +2117,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VSTE.svg",
       name: "Veste",
-      code: "VSTE",
+      ticker_symbol_prefix: "VSTE",
       code_cvm: "21440",
       description: "Atua com vestuário e acessórios de alto padrão com marcas como Le Lis, Dudalina, John John e Bo.Bô.",
       cnpj: "49669856000143",
@@ -2128,7 +2128,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/OFSA.svg",
       name: "Ouro Fino",
-      code: "OFSA",
+      ticker_symbol_prefix: "OFSA",
       code_cvm: "23507",
       description: "Atua no desenvolvimento, produção e comercialização de medicamentos voltados para a saúde e bem-estar animal.",
       cnpj: "20258278000170",
@@ -2139,7 +2139,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRBI.svg",
       name: "BR Partners",
-      code: "BRBI",
+      ticker_symbol_prefix: "BRBI",
       code_cvm: "25860",
       description: "Presta serviços financeiros como Investment Banking, Sales & Trading, Investimentos, entre outros.",
       cnpj: "10739356000103",
@@ -2150,7 +2150,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/QUAL.svg",
       name: "Qualicorp",
-      code: "QUAL",
+      ticker_symbol_prefix: "QUAL",
       code_cvm: "22497",
       description: "Líder na administração, gestão e vendas de Planos de Saúde coletivos e empresariais.",
       cnpj: "11992680000193",
@@ -2161,7 +2161,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EVEN.svg",
       name: "Even",
-      code: "EVEN",
+      ticker_symbol_prefix: "EVEN",
       code_cvm: "20524",
       description: "É uma das maiores incorporadoras e construtoras da região metropolitana de SP (também em RJ e POA)",
       cnpj: "43470988000165",
@@ -2172,7 +2172,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CLSA.svg",
       name: "ClearSale",
-      code: "CLSA",
+      ticker_symbol_prefix: "CLSA",
       code_cvm: "26093",
       description: "Líder em soluções antifraude digital nos mais diversos segmentos, como e-commerce, mercado financeiro, vendas diretas, telecomunicações e seguros.",
       cnpj: "03802115000198",
@@ -2183,7 +2183,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DESK.svg",
       name: "Desktop",
-      code: "DESK",
+      ticker_symbol_prefix: "DESK",
       code_cvm: "26026",
       description: "Atua majoritariamente na prestação de serviços de internet banda larga com fibra óptica de alta velocidade e foco no consumidor pessoa física.",
       cnpj: "08170849000115",
@@ -2194,7 +2194,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SOJA.svg",
       name: "Boa Safra",
-      code: "SOJA",
+      ticker_symbol_prefix: "SOJA",
       code_cvm: "25704",
       description: "Atua na produção de sementes, com participação em estados representando em conjunto mais de 70% do território nacional.",
       cnpj: "10807374000177",
@@ -2205,7 +2205,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CSED.svg",
       name: "Cruzeiro do Sul Educacional",
-      code: "CSED",
+      ticker_symbol_prefix: "CSED",
       code_cvm: "25526",
       description: "Um dos maiores grupos privados de ensino superior em número de alunos, com cursos desde a educação infantil até a pós-graduação.",
       cnpj: "62984091000102",
@@ -2216,7 +2216,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ZAMP.svg",
       name: "Burger King",
-      code: "ZAMP",
+      ticker_symbol_prefix: "ZAMP",
       code_cvm: "24317",
       description: "Master franqueado da rede Burger King e Popeyes no Brasil.",
       cnpj: "13574594000196",
@@ -2227,7 +2227,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LAVV.svg",
       name: "Lavvi",
-      code: "LAVV",
+      ticker_symbol_prefix: "LAVV",
       code_cvm: "25062",
       description: "É uma empresa do Grupo Cyrela com mais de 30 anos de experiência no mercado imobiliário.",
       cnpj: "26462693000128",
@@ -2238,7 +2238,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BMOB.svg",
       name: "Bemobi",
-      code: "BMOB",
+      ticker_symbol_prefix: "BMOB",
       code_cvm: "25500",
       description: "Pioneira na distribuição e monetização da venda de aplicativos, jogos e serviços digitais de telefonia celular operando num modelo B2B2C.",
       cnpj: "09042817000105",
@@ -2249,7 +2249,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CRPG.svg",
       name: "Tronox",
-      code: "CRPG",
+      ticker_symbol_prefix: "CRPG",
       code_cvm: "11398",
       description: "Líder mundial na produção de pigmento de Dióxido de Titânio (TiO2), que adicionam cor, brilho e durabilidade a diversos produtos.",
       cnpj: "15115504000124",
@@ -2260,7 +2260,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRIT.svg",
       name: "Brisanet",
-      code: "BRIT",
+      ticker_symbol_prefix: "BRIT",
       code_cvm: "26085",
       description: "Atua como provedora de internet via fibra óptica, TV por assinatura, streaming de música, telefonia fixa e móvel.",
       cnpj: "19796586000170",
@@ -2271,7 +2271,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EUCA.svg",
       name: "Eucatex",
-      code: "EUCA",
+      ticker_symbol_prefix: "EUCA",
       code_cvm: "5770",
       description: "Os principais segmentos de atuação são a indústria moveleira, revenda e a construção civil.",
       cnpj: "56643018000166",
@@ -2282,7 +2282,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VLID.svg",
       name: "Valid",
-      code: "VLID",
+      ticker_symbol_prefix: "VLID",
       code_cvm: "20028",
       description: "Atua principalmente com a emissão de documentos físicos e digitais, produção de cartões bancários e chips de telefonia celular.",
       cnpj: "33113309000147",
@@ -2293,7 +2293,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/POSI.svg",
       name: "Positivo",
-      code: "POSI",
+      ticker_symbol_prefix: "POSI",
       code_cvm: "20362",
       description: "Atua no desenvolvimento, fabricação, comercialização e distribuição de hardware, software e soluções.",
       cnpj: "81243735000148",
@@ -2304,7 +2304,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CVCB.svg",
       name: "CVC",
-      code: "CVCB",
+      ticker_symbol_prefix: "CVCB",
       code_cvm: "23310",
       description: "É uma das maiores empresas de turismo do Brasil, atuando como uma agência de viagens e operadora de turismo.",
       cnpj: "10760260000119",
@@ -2315,7 +2315,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ODER.svg",
       name: "Oderich",
-      code: "ODER",
+      ticker_symbol_prefix: "ODER",
       code_cvm: "4693",
       description: "Produz enlatados como atomatados, carnes, vegetais, maionese, condimento, entre outros.",
       cnpj: "97191902000194",
@@ -2326,7 +2326,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SCAR.svg",
       name: "São Carlos",
-      code: "SCAR",
+      ticker_symbol_prefix: "SCAR",
       code_cvm: "13781",
       description: "Uma das principais empresas de investimento e administração de imóveis comerciais do Brasil (SP e RJ).",
       cnpj: "29780061000109",
@@ -2337,7 +2337,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BMEB.svg",
       name: "Banco Mercantil",
-      code: "BMEB",
+      ticker_symbol_prefix: "BMEB",
       code_cvm: "1325",
       description: "Maior concentração na Região Sudeste, onde estão localizadas 80% das agências, especialmente em Minas Gerais.",
       cnpj: "17184037000110",
@@ -2348,7 +2348,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AMER.svg",
       name: "Americanas",
-      code: "AMER",
+      ticker_symbol_prefix: "AMER",
       code_cvm: "20990",
       description: "Nasceu da fusão entre a B2W e Lojas Americanas em 2021, agora consolida o resultado tanto das lojas físicas quanto do e-commerce.",
       cnpj: "00776574000156",
@@ -2359,7 +2359,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AERI.svg",
       name: "Aeris",
-      code: "AERI",
+      ticker_symbol_prefix: "AERI",
       code_cvm: "25283",
       description: "Exploração de negócio de construção e comercialização de pás de rotores para turbinas utilizadas na geração eólica de energia.",
       cnpj: "12528708000107",
@@ -2370,7 +2370,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AGXY.svg",
       name: "AgroGalaxy",
-      code: "AGXY",
+      ticker_symbol_prefix: "AGXY",
       code_cvm: "25658",
       description: "É uma das principais plataformas de varejo de insumos agrícolas e serviços voltados para o agronegócio.",
       cnpj: "21240146000184",
@@ -2381,7 +2381,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PTBL.svg",
       name: "Portobello",
-      code: "PTBL",
+      ticker_symbol_prefix: "PTBL",
       code_cvm: "13773",
       description: "Maior empresa de revestimentos cerâmicos do Brasil e atende países dos cinco continentes.",
       cnpj: "83475913000191",
@@ -2392,7 +2392,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LJQQ.svg",
       name: "Lojas Quero-Quero",
-      code: "LJQQ",
+      ticker_symbol_prefix: "LJQQ",
       code_cvm: "25038",
       description: "Comércio varejista especializado em material de construção, eletrodomésticos e móveis.",
       cnpj: "96418264021802",
@@ -2403,7 +2403,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/WIZC.svg",
       name: "Wiz",
-      code: "WIZC",
+      ticker_symbol_prefix: "WIZC",
       code_cvm: "23590",
       description: "Atua na gestão de canais de distribuição de seguros e produtos financeiros.",
       cnpj: "42278473000103",
@@ -2414,7 +2414,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TRIS.svg",
       name: "Trisul",
-      code: "TRIS",
+      ticker_symbol_prefix: "TRIS",
       code_cvm: "21130",
       description: "Foco exclusivo em construção civil na cidade de São Paulo.",
       cnpj: "08811643000127",
@@ -2425,7 +2425,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CEBR.svg",
       name: "Cia Energética de Brasília",
-      code: "CEBR",
+      ticker_symbol_prefix: "CEBR",
       code_cvm: "14451",
       description: "Holding brasileira controladora de empresas de energia elétrica atuantes no Centro-Oeste do Brasil.",
       cnpj: "00070698000111",
@@ -2436,7 +2436,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TEND.svg",
       name: "Tenda",
-      code: "TEND",
+      ticker_symbol_prefix: "TEND",
       code_cvm: "21148",
       description: "Uma das principais construtoras do país focada em empreendimentos econômicos (Minha Casa Minha Vida).",
       cnpj: "71476527000135",
@@ -2447,7 +2447,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MELK.svg",
       name: "Melnick",
-      code: "MELK",
+      ticker_symbol_prefix: "MELK",
       code_cvm: "25119",
       description: "É uma das maiores construtoras e incorporadoras do Rio Grande do Sul e alia seu padrão de qualidade e conhecimento à Even Construtora.",
       cnpj: "12181987000177",
@@ -2458,7 +2458,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRIV.svg",
       name: "Banco Alfa",
-      code: "BRIV",
+      ticker_symbol_prefix: "BRIV",
       code_cvm: "1384",
       description: "Crédito a grandes empresas, Corporate Finance, Asset Management, Private Banking e Wealth Management.",
       cnpj: "60770336000165",
@@ -2469,7 +2469,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DEXP.svg",
       name: "Dexxos",
-      code: "DEXP",
+      ticker_symbol_prefix: "DEXP",
       code_cvm: "16632",
       description: "Holding que concentra seus investimentos em empresas nos setores químico e de tubos de aço.",
       cnpj: "02193750000152",
@@ -2480,7 +2480,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ALPK.svg",
       name: "Estapar",
-      code: "ALPK",
+      ticker_symbol_prefix: "ALPK",
       code_cvm: "24953",
       description: "Oferece uma variedade de serviços relacionados a estacionamentos para veículos em áreas urbanas.",
       cnpj: "60537263000166",
@@ -2491,7 +2491,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LIPR.svg",
       name: "Eletropar",
-      code: "LIPR",
+      ticker_symbol_prefix: "LIPR",
       code_cvm: "15784",
       description: "Subsidiária da ELETROBRÁS, com nova denominação, Eletrobrás Participações S.A. – ELETROPAR, desde 2008.",
       cnpj: "01104937000170",
@@ -2502,7 +2502,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRPR.svg",
       name: "BRProperties",
-      code: "BRPR",
+      ticker_symbol_prefix: "BRPR",
       code_cvm: "19925",
       description: "Uma das principais empresas de investimento em imóveis comerciais do Brasil (aquisição, locação, etc).",
       cnpj: "06977751000149",
@@ -2513,7 +2513,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PATI.svg",
       name: "Panatlântica",
-      code: "PATI",
+      ticker_symbol_prefix: "PATI",
       code_cvm: "94",
       description: "Dedicada exclusivamente ao processamento e relaminação de aços planos.",
       cnpj: "92693019000189",
@@ -2524,7 +2524,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/OPCT.svg",
       name: "Oceanpact",
-      code: "OPCT",
+      ticker_symbol_prefix: "OPCT",
       code_cvm: "25534",
       description: "Desenvolve e implanta soluções seguras nas áreas de meio ambiente, operações submarinas e apoio logístico e engenharia.",
       cnpj: "09114805000130",
@@ -2535,7 +2535,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FHER.svg",
       name: "Heringer",
-      code: "FHER",
+      ticker_symbol_prefix: "FHER",
       code_cvm: "20621",
       description: "Produção, comercialização e distribuição de fertilizantes, com atuação nacional.",
       cnpj: "22266175000188",
@@ -2546,7 +2546,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/WLMM.svg",
       name: "WLM",
-      code: "WLMM",
+      ticker_symbol_prefix: "WLMM",
       code_cvm: "11070",
       description: "Produção e comercialização de produtos em atividades diversas dos segmentos automotivo e agropecuário.",
       cnpj: "33228024000151",
@@ -2557,7 +2557,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/KRSA.svg",
       name: "Kora Saúde",
-      code: "KRSA",
+      ticker_symbol_prefix: "KRSA",
       code_cvm: "25879",
       description: "Especializada na fabricação e comercialização de produtos e equipamentos médico-hospitalares.",
       cnpj: "13270520000166",
@@ -2568,7 +2568,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CASH.svg",
       name: "Méliuz",
-      code: "CASH",
+      ticker_symbol_prefix: "CASH",
       code_cvm: "25232",
       description: "Os parceiros pagam para anunciar e a cada compra realizada o usuário recebe parte desse valor, podendo resgatá-lo para sua conta corrente.",
       cnpj: "14110585000107",
@@ -2579,7 +2579,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ETER.svg",
       name: "Eternit",
-      code: "ETER",
+      ticker_symbol_prefix: "ETER",
       code_cvm: "5762",
       description: "Líder de mercado no setor de telhas (Telhas de fibrocimento e concreto), também atua no segmento de sistemas construtivos (Placas Cimentícias e Painel wall).",
       cnpj: "61092037000181",
@@ -2590,7 +2590,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BRGE.svg",
       name: "Alfa Consórcio",
-      code: "BRGE",
+      ticker_symbol_prefix: "BRGE",
       code_cvm: "4707",
       description: "Faz parte do Conglomerado Financeiro Alfa.",
       cnpj: "17193806000146",
@@ -2601,7 +2601,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MDNE.svg",
       name: "Moura Dubeux",
-      code: "MDNE",
+      ticker_symbol_prefix: "MDNE",
       code_cvm: "21067",
       description: "Moura Dubeux é uma construtora e incorporadora com foco no Nordeste, atuando há mais de 30 anos na região",
       cnpj: "12049631000184",
@@ -2612,7 +2612,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ALLD.svg",
       name: "Allied Tecnologia",
-      code: "ALLD",
+      ticker_symbol_prefix: "ALLD",
       code_cvm: "25330",
       description: "É uma das principais empresas no mercado brasileiro de eletrônicos de consumo.",
       cnpj: "20247322000147",
@@ -2623,7 +2623,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DOHL.svg",
       name: "Dohler",
-      code: "DOHL",
+      ticker_symbol_prefix: "DOHL",
       code_cvm: "5207",
       description: "Empresa têxtil que está entre as principais fabricantes brasileiras de cama, mesa e banho.",
       cnpj: "84683408000103",
@@ -2634,7 +2634,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MEAL.svg",
       name: "International Meal",
-      code: "MEAL",
+      ticker_symbol_prefix: "MEAL",
       code_cvm: "23574",
       description: "Oferece uma ampla variedade de serviços de alimentação, com marcas como Viena, Frango Assado, Batata Inglesa, Pizza Hut, entre outras.",
       cnpj: "17314329000120",
@@ -2645,7 +2645,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/OIBR.svg",
       name: "Oi",
-      code: "OIBR",
+      ticker_symbol_prefix: "OIBR",
       code_cvm: "11312",
       description: "Atua principalmente com o fornecimento de internet via fibra.",
       cnpj: "76535764000143",
@@ -2656,7 +2656,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ESPA.svg",
       name: "Espaçolaser",
-      code: "ESPA",
+      ticker_symbol_prefix: "ESPA",
       code_cvm: "25445",
       description: "A maior empresa de depilação a laser do Brasil em termos de faturamento, número de lojas e clientes atendidos.",
       cnpj: "26659061000159",
@@ -2667,7 +2667,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MTRE.svg",
       name: "Mitre Realty",
-      code: "MTRE",
+      ticker_symbol_prefix: "MTRE",
       code_cvm: "24902",
       description: "Incorporação e comercialização de empreendimentos imobiliários, como loteamento de terrenos e construção de condomínios.",
       cnpj: "07882930000165",
@@ -2678,7 +2678,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/IFCM.svg",
       name: "Infracommerce",
-      code: "IFCM",
+      ticker_symbol_prefix: "IFCM",
       code_cvm: "25747",
       description: "Auxilia as empresas na criação e personalização de suas plataformas de comércio eletrônico (e-commerce).",
       cnpj: "38456921000136",
@@ -2689,7 +2689,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RPAD.svg",
       name: "Alfa Holdings",
-      code: "RPAD",
+      ticker_symbol_prefix: "RPAD",
       code_cvm: "9954",
       description: "Holding do Conglomerado Financeiro Alfa.",
       cnpj: "17167396000169",
@@ -2700,7 +2700,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SYNE.svg",
       name: "SYN",
-      code: "SYNE",
+      ticker_symbol_prefix: "SYNE",
       code_cvm: "21040",
       description: "Uma das principais empresas de aquisição, locação, venda e operação de imóveis comerciais do Brasil.",
       cnpj: "08801621000186",
@@ -2711,7 +2711,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PEAB.svg",
       name: "Participações Aliança",
-      code: "PEAB",
+      ticker_symbol_prefix: "PEAB",
       code_cvm: "18708",
       description: "Holding",
       cnpj: "01938783000111",
@@ -2722,7 +2722,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AFLT.svg",
       name: "Afluente T",
-      code: "AFLT",
+      ticker_symbol_prefix: "AFLT",
       code_cvm: "22179",
       description: "É uma empresa de transmissão de energia elétrica que faz parte do Grupo Neoenergia, opera subestações no Estado da Bahia.",
       cnpj: "10338320000100",
@@ -2733,7 +2733,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CGRA.svg",
       name: "Grazziotin",
-      code: "CGRA",
+      ticker_symbol_prefix: "CGRA",
       code_cvm: "4537",
       description: "Forte no RS e composta pelas redes Grazziotin, Tottal Casa e Conforto, Pormenos e Franco Giorgi.",
       cnpj: "92012467000170",
@@ -2744,7 +2744,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CRIV.svg",
       name: "Alfa Financeira",
-      code: "CRIV",
+      ticker_symbol_prefix: "CRIV",
       code_cvm: "3891",
       description: "Atua com Crédito Direto ao Consumidor com mediação, Desconto de Recebíveis, Financiamentos, entre outros.",
       cnpj: "17167412000113",
@@ -2755,7 +2755,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SEER.svg",
       name: "SER Educacional",
-      code: "SEER",
+      ticker_symbol_prefix: "SEER",
       code_cvm: "23221",
       description: "Uma das maiores organizações privadas no setor de ensino superior no Brasil (presencial e EAD).",
       cnpj: "04986320000113",
@@ -2766,7 +2766,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/APER.svg",
       name: "Alper Seguros",
-      code: "APER",
+      ticker_symbol_prefix: "APER",
       code_cvm: "22217",
       description: "É uma empresa do setor de seguros e consultoria de riscos, atua principalmente com serviços de corretagem de seguros.",
       cnpj: "11721921000160",
@@ -2777,7 +2777,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CSUD.svg",
       name: "CSU",
-      code: "CSUD",
+      ticker_symbol_prefix: "CSUD",
       code_cvm: "20044",
       description: "Líder em soluções digitais para meios de pagamento, banking as a service, programas de fidelização e incentivo, além de digital experience.",
       cnpj: "01896779000138",
@@ -2788,7 +2788,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VSPT.svg",
       name: "Ferrovia Centro-Atlântica",
-      code: "VSPT",
+      ticker_symbol_prefix: "VSPT",
       code_cvm: "15369",
       description: "Oferece soluções logísticas que integram portos, ferrovias e terminais.",
       cnpj: "00924429000175",
@@ -2799,7 +2799,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HBRE.svg",
       name: "HBR Realty",
-      code: "HBRE",
+      ticker_symbol_prefix: "HBRE",
       code_cvm: "25402",
       description: "Focada no desenvolvimento de ativos de renda urbana baseada em Mogi das Cruzes (SP).",
       cnpj: "14785152000151",
@@ -2810,7 +2810,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PINE.svg",
       name: "Banco Pine",
-      code: "PINE",
+      ticker_symbol_prefix: "PINE",
       code_cvm: "20567",
       description: "Concentra principalmente em soluções para empresas de médio e grande porte, com uma variedade de serviços e produtos financeiros.",
       cnpj: "62144175000120",
@@ -2821,7 +2821,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PFRM.svg",
       name: "Profarma",
-      code: "PFRM",
+      ticker_symbol_prefix: "PFRM",
       code_cvm: "20346",
       description: "É um dos maiores players do setor de drogarias, com marcas como Drogasmil, Farmalife, D1000, Tamoio, entre outras.",
       cnpj: "45453214000151",
@@ -2832,7 +2832,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HBOR.svg",
       name: "Helbor",
-      code: "HBOR",
+      ticker_symbol_prefix: "HBOR",
       code_cvm: "20877",
       description: "Especializada no desenvolvimento e construção de empreendimentos residenciais, comerciais e mistos.",
       cnpj: "49263189000102",
@@ -2843,7 +2843,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LUXM.svg",
       name: "Trevisa",
-      code: "LUXM",
+      ticker_symbol_prefix: "LUXM",
       code_cvm: "8192",
       description: "Faz o transporte de fertilizantes, grãos, celulose e carga geral em container.",
       cnpj: "92660570000126",
@@ -2854,7 +2854,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BOBR.svg",
       name: "Bombril",
-      code: "BOBR",
+      ticker_symbol_prefix: "BOBR",
       code_cvm: "12190",
       description: "Bombril pole panelas e também limpa vidros, louças, azulejos e ferragens, tanto que ganhou o conceito de \"1001 utilidades\".",
       cnpj: "50564053000103",
@@ -2865,7 +2865,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BIOM.svg",
       name: "Biomm",
-      code: "BIOM",
+      ticker_symbol_prefix: "BIOM",
       code_cvm: "19305",
       description: "Pioneira em processos e produção de produtos biotecnológicos para aplicações industriais.",
       cnpj: "04752991000110",
@@ -2876,7 +2876,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GFSA.svg",
       name: "Gafisa",
-      code: "GFSA",
+      ticker_symbol_prefix: "GFSA",
       code_cvm: "16101",
       description: "Uma das principais incorporadoras no segmento de média-alta e alta renda no Brasil (RJ e SP)",
       cnpj: "01545826000107",
@@ -2887,7 +2887,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MBLY.svg",
       name: "Mobly",
-      code: "MBLY",
+      ticker_symbol_prefix: "MBLY",
       code_cvm: "25461",
       description: "É uma empresa de tecnologia que atua no comércio eletrônico, referência em varejo do setor de móveis e decoração.",
       cnpj: "31553627000101",
@@ -2898,7 +2898,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CAMB.svg",
       name: "Cambuci",
-      code: "CAMB",
+      ticker_symbol_prefix: "CAMB",
       code_cvm: "2100",
       description: "Maior fabricante de artigos para futebol do Brasil e líder absoluta em bolas, gestora das marcas Penalty e Stadium.",
       cnpj: "61088894000108",
@@ -2909,7 +2909,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RNEW.svg",
       name: "Renova",
-      code: "RNEW",
+      ticker_symbol_prefix: "RNEW",
       code_cvm: "21636",
       description: "Geração de energia por meio de fontes renováveis.",
       cnpj: "08534605000174",
@@ -2920,7 +2920,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BGIP.svg",
       name: "Banese",
-      code: "BGIP",
+      ticker_symbol_prefix: "BGIP",
       code_cvm: "1120",
       description: "Busca valorizar os artistas e atletas locais, com foco desenvolvimento econômico de Sergipe.",
       cnpj: "13009717000146",
@@ -2931,7 +2931,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RSUL.svg",
       name: "Riosulense",
-      code: "RSUL",
+      ticker_symbol_prefix: "RSUL",
       code_cvm: "13439",
       description: "Uma das maiores fabricantes da AL de guias, tuchos mecânicos de válvulas e fundidos em ligas especiais.",
       cnpj: "85778074000106",
@@ -2942,7 +2942,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NGRD.svg",
       name: "Neogrid",
-      code: "NGRD",
+      ticker_symbol_prefix: "NGRD",
       code_cvm: "25399",
       description: "Empresa de Software as a Service (“SaaS”), data e tecnologia com soluções que integram e sincronizam as operações de indústrias, distribuidores e varejistas.",
       cnpj: "10139870000108",
@@ -2953,7 +2953,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HBTS.svg",
       name: "Habitasul",
-      code: "HBTS",
+      ticker_symbol_prefix: "HBTS",
       code_cvm: "3298",
       description: "Atua com a construção e administração de hotéis e condomínios.",
       cnpj: "87762563000103",
@@ -2964,7 +2964,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BAUH.svg",
       name: "Excelsior",
-      code: "BAUH",
+      ticker_symbol_prefix: "BAUH",
       code_cvm: "1570",
       description: "Conta com um portfólio diversificado, como: embutidos a base de proteínas, vegetais congelados e pratos prontos para o consumo.",
       cnpj: "95426862000197",
@@ -2975,7 +2975,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MTSA.svg",
       name: "Metisa",
-      code: "MTSA",
+      ticker_symbol_prefix: "MTSA",
       code_cvm: "8753",
       description: "Atua com ferramentas agrícolas, lâminas, penetração de solo, acessórios ferroviários e rodoviários.",
       cnpj: "86375425000109",
@@ -2986,7 +2986,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LVTC.svg",
       name: "WDC Livetech da Bahia",
-      code: "LVTC",
+      ticker_symbol_prefix: "LVTC",
       code_cvm: "25895",
       description: "Atua com serviços e produtos, incluindo infraestrutura de banda-larga, câmeras de vigilância, sistemas de controle de acesso, Cibersegurança, data center, automação, geradores de energia solar.",
       cnpj: "05917486000140",
@@ -2997,7 +2997,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PTNT.svg",
       name: "Pettenati",
-      code: "PTNT",
+      ticker_symbol_prefix: "PTNT",
       code_cvm: "9539",
       description: "Mais moderna tecelagem de malharia circular das Américas e mais de 50 anos no mercado têxtil",
       cnpj: "88613658000110",
@@ -3008,7 +3008,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PRNR.svg",
       name: "Priner",
-      code: "PRNR",
+      ticker_symbol_prefix: "PRNR",
       code_cvm: "24236",
       description: "Responsável pela locação de andaimes, equipamentos especiais de acesso e habitáculos pressurizados, além de pintura industrial.",
       cnpj: "18593815000197",
@@ -3019,7 +3019,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LPSB.svg",
       name: "Lopes Brasil",
-      code: "LPSB",
+      ticker_symbol_prefix: "LPSB",
       code_cvm: "20370",
       description: "Atua na intermediação imobiliária em lançamentos e imóveis de terceiros, além da promoção de financiamentos imobiliários.",
       cnpj: "08078847000109",
@@ -3030,7 +3030,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CSAB.svg",
       name: "Seguros Aliança da Bahia",
-      code: "CSAB",
+      ticker_symbol_prefix: "CSAB",
       code_cvm: "3115",
       description: "Trabalha hoje exclusivamente com seguros DPVAT e possui duas filiais: uma em São Paulo e outra no Rio de Janeiro.",
       cnpj: "15144017000190",
@@ -3041,7 +3041,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TRAD.svg",
       name: "TC Traders Club",
-      code: "TRAD",
+      ticker_symbol_prefix: "TRAD",
       code_cvm: "26077",
       description: "A plataforma oferece inteligência de mercado gerada tanto pelo networking entre milhares de investidores, quanto pelo fornecimento de informações.",
       cnpj: "26345998000150",
@@ -3052,7 +3052,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RCSL.svg",
       name: "Recrusul",
-      code: "RCSL",
+      ticker_symbol_prefix: "RCSL",
       code_cvm: "12572",
       description: "Trabalha com equipamentos de refrigeração para transporte, industriais e implementos rodoviários.",
       cnpj: "91333666000117",
@@ -3063,7 +3063,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AMAR.svg",
       name: "Lojas Marisa",
-      code: "AMAR",
+      ticker_symbol_prefix: "AMAR",
       code_cvm: "22055",
       description: "Uma das maiores redes de lojas de vestuário feminino, masculino e infantil do país focada no público Classe C.",
       cnpj: "61189288000189",
@@ -3074,7 +3074,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PDTC.svg",
       name: "Padtec",
-      code: "PDTC",
+      ticker_symbol_prefix: "PDTC",
       code_cvm: "18414",
       description: "Durante muitos anos, a Companhia se posicionou como uma venture capital de tecnologia no Brasil.",
       cnpj: "02365069000144",
@@ -3085,7 +3085,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ENJU.svg",
       name: "Enjoei",
-      code: "ENJU",
+      ticker_symbol_prefix: "ENJU",
       code_cvm: "25259",
       description: "É uma empresa brasileira de comércio eletrônico que oferece soluções de venda de produtos usados.",
       cnpj: "16922038000151",
@@ -3096,7 +3096,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RDNI.svg",
       name: "RNI",
-      code: "RDNI",
+      ticker_symbol_prefix: "RDNI",
       code_cvm: "20451",
       description: "Atua no desenvolvimento e na construção de empreendimentos imobiliários residenciais e comerciais.",
       cnpj: "67010660000124",
@@ -3107,7 +3107,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TCSA.svg",
       name: "Tecnisa",
-      code: "TCSA",
+      ticker_symbol_prefix: "TCSA",
       code_cvm: "20435",
       description: "Foco no mercado residencial de forma totalmente integrada: landbank, incorporação, vendas e construção",
       cnpj: "08065557000112",
@@ -3118,7 +3118,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/G2DI.svg",
       name: "G2D Investments",
-      code: "G2DI",
+      ticker_symbol_prefix: "G2DI",
       code_cvm: "80195",
       description: "Investe em companhias baseadas em tecnologia de alto crescimento e potencial de se tornarem líderes em suas indústrias, principalmente em Venture Capital e Private Equity.",
       cnpj: "38307135000177",
@@ -3129,7 +3129,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MSPA.svg",
       name: "Melhoramentos SP",
-      code: "MSPA",
+      ticker_symbol_prefix: "MSPA",
       code_cvm: "3654",
       description: "Opera no mercado editorial, no plantio de florestas e na produção de fibras de alto rendimento.",
       cnpj: "60730348000166",
@@ -3140,7 +3140,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GPIV.svg",
       name: "GP Investments",
-      code: "GPIV",
+      ticker_symbol_prefix: "GPIV",
       code_cvm: "80020",
       description: "Docada na aceleração da criação de valor através de investimentos diretos e gerenciamento de fundos de private equity.",
       cnpj: "07857850000150",
@@ -3151,7 +3151,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DMVF.svg",
       name: "D1000 Varejo Farma",
-      code: "DMVF",
+      ticker_symbol_prefix: "DMVF",
       code_cvm: "25046",
       description: "A Companhia tem por objeto a participação, como sócia ou acionista, em outras sociedades do varejo farmacêutico, nacionais ou estrangeiras.",
       cnpj: "12108897000150",
@@ -3162,7 +3162,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/JOPA.svg",
       name: "Josapar",
-      code: "JOPA",
+      ticker_symbol_prefix: "JOPA",
       code_cvm: "13285",
       description: "Uma das maiores empresas de produtos alimentícios do país e marcas como Tio João, Meu Biju e SupraSoy.",
       cnpj: "87456562000122",
@@ -3173,7 +3173,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TECN.svg",
       name: "Technos",
-      code: "TECN",
+      ticker_symbol_prefix: "TECN",
       code_cvm: "22519",
       description: "Maior empresa de relógios da América Latina e marcas como: Dumont, Condor, Fossil, Diesel, entre outras",
       cnpj: "09295063000197",
@@ -3184,7 +3184,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SEQL.svg",
       name: "Sequoia",
-      code: "SEQL",
+      ticker_symbol_prefix: "SEQL",
       code_cvm: "25160",
       description: "Atua no segmento de transporte e logística, com foco na realização de entregas expressas e em soluções de logística reversa para o e-commerce.",
       cnpj: "01599101000193",
@@ -3195,7 +3195,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BAHI.svg",
       name: "Bahema",
-      code: "BAHI",
+      ticker_symbol_prefix: "BAHI",
       code_cvm: "701",
       description: "Participação em escolas para que atualizem seu ambiente educacional tornando a gestão mais eficiente.",
       cnpj: "45987245000192",
@@ -3206,7 +3206,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PMAM.svg",
       name: "Paranapanema",
-      code: "PMAM",
+      ticker_symbol_prefix: "PMAM",
       code_cvm: "9393",
       description: "Uma das mais importantes empresas brasileiras de classe internacional na área de metais não ferrosos.",
       cnpj: "60398369000479",
@@ -3217,7 +3217,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SHOW.svg",
       name: "Time For Fun",
-      code: "SHOW",
+      ticker_symbol_prefix: "SHOW",
       code_cvm: "22454",
       description: "Líder no mercado de entretenimento ao vivo na América do Sul promovendo espetáculos em 6 casas de shows",
       cnpj: "02860694000162",
@@ -3228,7 +3228,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EALT.svg",
       name: "Electro Aço Altona",
-      code: "EALT",
+      ticker_symbol_prefix: "EALT",
       code_cvm: "5380",
       description: "Atua com fundição e usinagem de peças em aços carbono e ligadas, além de ferros ligados.",
       cnpj: "82643537000134",
@@ -3239,7 +3239,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TPIS.svg",
       name: "Triunfo",
-      code: "TPIS",
+      ticker_symbol_prefix: "TPIS",
       code_cvm: "19330",
       description: "Atua nos segmentos de concessões rodoviárias, aeroportuária, geração de energia e administração portuária.",
       cnpj: "03014553000191",
@@ -3250,7 +3250,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CTNM.svg",
       name: "Coteminas",
-      code: "CTNM",
+      ticker_symbol_prefix: "CTNM",
       code_cvm: "3158",
       description: "Especializada na produção e comercialização de produtos para cama, mesa e banho.",
       cnpj: "22677520000176",
@@ -3261,7 +3261,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AHEB.svg",
       name: "São Paulo Turismo",
-      code: "AHEB",
+      ticker_symbol_prefix: "AHEB",
       code_cvm: "9415",
       description: "Objetivo de promover a cidade como a capital dos negócios, conhecimento e entretenimento da América Latina.",
       cnpj: "62002886000160",
@@ -3272,7 +3272,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/UCAS.svg",
       name: "Unicasa",
-      code: "UCAS",
+      ticker_symbol_prefix: "UCAS",
       code_cvm: "22780",
       description: "Líder em receita bruta no mercado de móveis planejados com marcas como Dell Anno, Favorita e New",
       cnpj: "90441460000148",
@@ -3283,7 +3283,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/EPAR.svg",
       name: "Battistella",
-      code: "EPAR",
+      ticker_symbol_prefix: "EPAR",
       code_cvm: "15458",
       description: "Atua em veículos pesados Scania e na industrialização e comercialização de madeira.",
       cnpj: "42331462000131",
@@ -3294,7 +3294,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/INEP.svg",
       name: "Inepar",
-      code: "INEP",
+      ticker_symbol_prefix: "INEP",
       code_cvm: "7595",
       description: "Uma das maiores empresas de infraestrutura do país (Energia, Óleo, Gás, Petroquímica, entre outros).",
       cnpj: "76627504000106",
@@ -3305,7 +3305,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TKNO.svg",
       name: "Tekno",
-      code: "TKNO",
+      ticker_symbol_prefix: "TKNO",
       code_cvm: "11231",
       description: "Pioneira na introdução do Coil Coating no Brasil e atua com revestimentos e acabamentos de metais.",
       cnpj: "33467572000134",
@@ -3316,7 +3316,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SGPS.svg",
       name: "Springs Global",
-      code: "SGPS",
+      ticker_symbol_prefix: "SGPS",
       code_cvm: "20966",
       description: "Atua com fabricação de produtos têxteis para o lar e detém marcas como MMartan, Artex e Casa Moyses",
       cnpj: "07718269000157",
@@ -3327,7 +3327,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NINJ.svg",
       name: "GetNinjas",
-      code: "NINJ",
+      ticker_symbol_prefix: "NINJ",
       code_cvm: "25887",
       description: "É o maior aplicativo de contratação de serviços da América Latina.",
       cnpj: "14127813000151",
@@ -3338,7 +3338,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BMKS.svg",
       name: "Monark",
-      code: "BMKS",
+      ticker_symbol_prefix: "BMKS",
       code_cvm: "1694",
       description: "Atua com bicicletas de plástico e alumínio, incluindo Alumínio, BMX e Esportiva (Masc., Fem. e Transp.).",
       cnpj: "56992423000190",
@@ -3349,7 +3349,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RPMG.svg",
       name: "Refit",
-      code: "RPMG",
+      ticker_symbol_prefix: "RPMG",
       code_cvm: "9989",
       description: "Atua com produtos como: Gasolina, Oleo Combustível, Aguarras Mineral, SBP, Hexano e Heptano.",
       cnpj: "33412081000196",
@@ -3360,7 +3360,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DOTZ.svg",
       name: "Dotz",
-      code: "DOTZ",
+      ticker_symbol_prefix: "DOTZ",
       code_cvm: "25836",
       description: "Os consumidores realizam transações em milhares de pontos de venda, com parceiros offline e online, e são recompensados com a moeda Dotz.",
       cnpj: "18174270000184",
@@ -3371,7 +3371,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AZEV.svg",
       name: "Azevedo e Travassos",
-      code: "AZEV",
+      ticker_symbol_prefix: "AZEV",
       code_cvm: "11975",
       description: "Atua com Construção Pesada e Civil, Eletromecânica, Furo Direcional, Perfuração de Poços e Imobiliário.",
       cnpj: "61351532000168",
@@ -3382,7 +3382,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MERC.svg",
       name: "Mercantil Financeira",
-      code: "MERC",
+      ticker_symbol_prefix: "MERC",
       code_cvm: "8540",
       description: "Maior concentração na Região Sudeste, onde estão localizadas 80% das agências, especialmente em Minas Gerais.",
       cnpj: "33040601000187",
@@ -3393,7 +3393,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/WEST.svg",
       name: "Westwing",
-      code: "WEST",
+      ticker_symbol_prefix: "WEST",
       code_cvm: "25518",
       description: "Atua no universo digital sendo referência no segmento de Casa e Decoração com três modelos de venda: Westwing Club, WestwingNow e Galerias.",
       cnpj: "14776142000150",
@@ -3404,7 +3404,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MNDL.svg",
       name: "Mundial",
-      code: "MNDL",
+      ticker_symbol_prefix: "MNDL",
       code_cvm: "5312",
       description: "Atua com utensílios pessoais (alicates, tesouras, entre outros) e domésticos (facas, talheres e etc).",
       cnpj: "88610191000154",
@@ -3415,7 +3415,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PLAS.svg",
       name: "Plascar",
-      code: "PLAS",
+      ticker_symbol_prefix: "PLAS",
       code_cvm: "13471",
       description: "Líder no mercado de autopeças na AL, além de exportar para o México, Canadá, EUA, Austrália e Europa.",
       cnpj: "51928174000150",
@@ -3426,7 +3426,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/LUPA.svg",
       name: "Lupatech",
-      code: "LUPA",
+      ticker_symbol_prefix: "LUPA",
       code_cvm: "20060",
       description: "Líder no Mercosul na fabricação de válvulas industriais, além de produzir cabos, compressores de gás, etc.",
       cnpj: "89463822000112",
@@ -3437,7 +3437,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MGEL.svg",
       name: "Mangels",
-      code: "MGEL",
+      ticker_symbol_prefix: "MGEL",
       code_cvm: "8397",
       description: "Principal produto é a roda de alumínio e botijões de gás de cozinha, além de atender outras indústrias.",
       cnpj: "61065298000102",
@@ -3448,7 +3448,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BALM.svg",
       name: "Baumer",
-      code: "BALM",
+      ticker_symbol_prefix: "BALM",
       code_cvm: "1562",
       description: "Parque fabril na cidade de Mogi Mirim/SP e liderança no mercado de implantes ortopédicos do Brasil.",
       cnpj: "61374161000130",
@@ -3459,7 +3459,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SOND.svg",
       name: "Sondotécnica",
-      code: "SOND",
+      ticker_symbol_prefix: "SOND",
       code_cvm: "10880",
       description: "Pioneira nas Áreas de Hidrologia, Oceanografia e Sedimentos, além de atuar com Investigação e Sondagem.",
       cnpj: "33386210000119",
@@ -3470,7 +3470,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CTSA.svg",
       name: "Santanense",
-      code: "CTSA",
+      ticker_symbol_prefix: "CTSA",
       code_cvm: "4081",
       description: "Produtos voltados para o segmento de moda e roupas profissionais, desde 2004 faz parte do grupo Coteminas.",
       cnpj: "21255567000189",
@@ -3481,7 +3481,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/AVLL.svg",
       name: "Alphaville Urbanismo",
-      code: "AVLL",
+      ticker_symbol_prefix: "AVLL",
       code_cvm: "25275",
       description: "Especializada na criação de loteamentos urbanos planejados, voltados para a construção de empreendimentos residenciais e comerciais.",
       cnpj: "16811931000100",
@@ -3492,7 +3492,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FRIO.svg",
       name: "Metalfrio",
-      code: "FRIO",
+      ticker_symbol_prefix: "FRIO",
       code_cvm: "20613",
       description: "Um dos maiores fabricantes mundiais de equipamentos de refrigeração comercial do tipo Plug-In.",
       cnpj: "04821041000108",
@@ -3503,7 +3503,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CEDO.svg",
       name: "Cedro Têxtil",
-      code: "CEDO",
+      ticker_symbol_prefix: "CEDO",
       code_cvm: "3077",
       description: "Especializada na fabricação e comercialização de tecidos e produtos têxteis, desde a produção de fios e tecidos até o desenvolvimento de produtos finais.",
       cnpj: "17245234000100",
@@ -3514,7 +3514,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ESTR.svg",
       name: "Estrela",
-      code: "ESTR",
+      ticker_symbol_prefix: "ESTR",
       code_cvm: "8427",
       description: "Famosa pelos bonecos dos Cavaleiros do Zodíaco.",
       cnpj: "61082004000150",
@@ -3525,7 +3525,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BMIN.svg",
       name: "Mercantil Investimentos",
-      code: "BMIN",
+      ticker_symbol_prefix: "BMIN",
       code_cvm: "1309",
       description: "Maior concentração na Região Sudeste, onde estão localizadas 80% das agências, especialmente em Minas Gerais.",
       cnpj: "34169557000172",
@@ -3536,7 +3536,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/RSID.svg",
       name: "Rossi",
-      code: "RSID",
+      ticker_symbol_prefix: "RSID",
       code_cvm: "16306",
       description: "Atua no desenvolvimento, construção e venda de empreendimentos imobiliários residenciais e comerciais.",
       cnpj: "61065751000180",
@@ -3547,7 +3547,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MNPR.svg",
       name: "Minupar",
-      code: "MNPR",
+      ticker_symbol_prefix: "MNPR",
       code_cvm: "13765",
       description: "Participação em outras empresas (alimentícios, agrícolas, florestamento e reflorestamento, entre outros).",
       cnpj: "90076886000140",
@@ -3558,7 +3558,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/VIVR.svg",
       name: "Viver",
-      code: "VIVR",
+      ticker_symbol_prefix: "VIVR",
       code_cvm: "20702",
       description: "O principal foco de atuação da Companhia está no mercado residencial, nos segmentos de médio e médio-alto padrão.",
       cnpj: "67571414000141",
@@ -3569,7 +3569,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NUTR.svg",
       name: "Nutriplant",
-      code: "NUTR",
+      ticker_symbol_prefix: "NUTR",
       code_cvm: "21334",
       description: "É uma das maiores produtoras de fertilizantes especiais e micronutrientes no Brasil, referência em tecnologia e qualidade e com mais de 30 anos atuando neste mercado.",
       cnpj: "51128999000190",
@@ -3580,7 +3580,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CTKA.svg",
       name: "Karsten",
-      code: "CTKA",
+      ticker_symbol_prefix: "CTKA",
       code_cvm: "4146",
       description: "Uma das principais marcas do Brasil no segmento de cama, banho, mesa e tecidos para decoração.",
       cnpj: "82640558000104",
@@ -3591,7 +3591,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DTCY.svg",
       name: "DTCOM",
-      code: "DTCY",
+      ticker_symbol_prefix: "DTCY",
       code_cvm: "18597",
       description: "Atua com comunicação e educação corporativa, além de acadêmica e tecnologia.",
       cnpj: "03303999000136",
@@ -3602,7 +3602,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/APTI.svg",
       name: "Aliperti",
-      code: "APTI",
+      ticker_symbol_prefix: "APTI",
       code_cvm: "12823",
       description: "Holding em que a maior parte da receita vem da empresa Agroeldorado Agricultura e Pecuária, ligada ao agronegócio em SP, MG e MS.",
       cnpj: "61156931000178",
@@ -3613,7 +3613,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ATOM.svg",
       name: "Atom",
-      code: "ATOM",
+      ticker_symbol_prefix: "ATOM",
       code_cvm: "15423",
       description: "Foco em cursos para traders e apoio nas suas operações no Mercado.",
       cnpj: "00359742000108",
@@ -3624,7 +3624,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/JFEN.svg",
       name: "João Fortes",
-      code: "JFEN",
+      ticker_symbol_prefix: "JFEN",
       code_cvm: "7811",
       description: "Além de atuar como incorporadora, atua como construtora para terceiros (empreitada e administração).",
       cnpj: "33035536000100",
@@ -3635,7 +3635,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HOOT.svg",
       name: "Hotéis Othon",
-      code: "HOOT",
+      ticker_symbol_prefix: "HOOT",
       code_cvm: "6700",
       description: "Prestação de Serviços na Indústria Hoteleira",
       cnpj: "33200049000147",
@@ -3646,7 +3646,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NORD.svg",
       name: "Nordon",
-      code: "NORD",
+      ticker_symbol_prefix: "NORD",
       code_cvm: "9083",
       description: "Produção de bens de capital destinados ao mercado interno e externo para diversos setores.",
       cnpj: "60884319000159",
@@ -3657,7 +3657,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CALI.svg",
       name: "Adolpho Lindenberg",
-      code: "CALI",
+      ticker_symbol_prefix: "CALI",
       code_cvm: "4723",
       description: "Especializada no desenvolvimento e construção de empreendimentos residenciais de alto padrão.",
       cnpj: "61022042000118",
@@ -3668,7 +3668,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CRDE.svg",
       name: "CR2",
-      code: "CRDE",
+      ticker_symbol_prefix: "CRDE",
       code_cvm: "20630",
       description: "Uma das principais incorporadoras imobiliárias que atuam no Grande Rio e Grande São Paulo.",
       cnpj: "07820907000146",
@@ -3679,7 +3679,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/GSHP.svg",
       name: "General Shopping",
-      code: "GSHP",
+      ticker_symbol_prefix: "GSHP",
       code_cvm: "21008",
       description: "Desde a concepção dos shoppings até a administração, passando por planejamento e comercialização",
       cnpj: "08764621000153",
@@ -3690,7 +3690,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/ATMP.svg",
       name: "ATMA",
-      code: "ATMP",
+      ticker_symbol_prefix: "ATMP",
       code_cvm: "19100",
       description: "Holding de um dos maiores grupos de prestação de serviços do país nas áreas de Atendimento a Clientes, Manutenção e Tecnologia.",
       cnpj: "04032433000180",
@@ -3701,7 +3701,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FIGE.svg",
       name: "Investimentos BEMGE",
-      code: "FIGE",
+      ticker_symbol_prefix: "FIGE",
       code_cvm: "6041",
       description: "Financeira de crédito, financiamento e investimento.",
       cnpj: "01548981000179",
@@ -3712,7 +3712,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SNSY.svg",
       name: "Sansuy",
-      code: "SNSY",
+      ticker_symbol_prefix: "SNSY",
       code_cvm: "12696",
       description: "Desenvolvimento mangueiras de alta pressão para a pulverização agrícola e possui liderança na América do Sul na fabricação de laminados de PVC.",
       cnpj: "14807945000124",
@@ -3723,7 +3723,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MWET.svg",
       name: "Wetzel",
-      code: "MWET",
+      ticker_symbol_prefix: "MWET",
       code_cvm: "11991",
       description: "Fabricação de peças e acessórios para sistema motor de veículos automotores.",
       cnpj: "84683671000194",
@@ -3734,7 +3734,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HAGA.svg",
       name: "Haga",
-      code: "HAGA",
+      ticker_symbol_prefix: "HAGA",
       code_cvm: "13366",
       description: "Trabalha com fechaduras, puxadores, dobradiças, complementos, eletrônica, móveis e afins",
       cnpj: "30540991000166",
@@ -3745,7 +3745,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TXRX.svg",
       name: "Renauxview",
-      code: "TXRX",
+      ticker_symbol_prefix: "TXRX",
       code_cvm: "7544",
       description: "Com uma tradição centenária na produção têxtil, a RenauxView é hoje um dos mais importantes fornecedores de tecidos para a indústria da moda no Brasil.",
       cnpj: "82982075000180",
@@ -3756,7 +3756,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PDGR.svg",
       name: "PDG Realty",
-      code: "PDGR",
+      ticker_symbol_prefix: "PDGR",
       code_cvm: "20478",
       description: "É uma das principais construtoras e incorporadoras do Brasil e atua com foco no mercado residencial (comercial e de loteamento de forma complementar).",
       cnpj: "02950811000189",
@@ -3767,7 +3767,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BDLL.svg",
       name: "Bardella",
-      code: "BDLL",
+      ticker_symbol_prefix: "BDLL",
       code_cvm: "1520",
       description: "Líder no fornecimento de bens de capital sob encomenda para os setores industriais (Metalurgia, Energia, Manuseio de Materiais, Petróleo, Gás, entre outros).",
       cnpj: "60851615000153",
@@ -3778,7 +3778,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/OSXB.svg",
       name: "OSX Brasil",
-      code: "OSXB",
+      ticker_symbol_prefix: "OSXB",
       code_cvm: "21342",
       description: "Atua na exploração econômica de área estratégica de seu estaleiro, localizado no Superporto do Açu, na Bacia de Campos - RJ.",
       cnpj: "09112685000132",
@@ -3789,7 +3789,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/SLED.svg",
       name: "Saraiva",
-      code: "SLED",
+      ticker_symbol_prefix: "SLED",
       code_cvm: "10472",
       description: "Ppera por meio do conceito omnichannel, que integra lojas físicas, internet e dispositivos móveis, com uma ampla gama de produtos e serviços.",
       cnpj: "60500139000126",
@@ -3800,7 +3800,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/NEXP.svg",
       name: "Nexpe",
-      code: "NEXP",
+      ticker_symbol_prefix: "NEXP",
       code_cvm: "21180",
       description: "A antiga Brasil Brokers virou uma plataforma de empresas especializadas que atuam em diferentes etapas da jornada imobiliária.",
       cnpj: "08613550000198",
@@ -3811,7 +3811,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/DMFN.svg",
       name: "Finansinos",
-      code: "DMFN",
+      ticker_symbol_prefix: "DMFN",
       code_cvm: "6076",
       description: "Foco em Crédito Direto ao Consumo de Bens (automóveis e caminhões), Capital de Giro, Auto Financiamento, e Desconto de Títulos.",
       cnpj: "91669747000192",
@@ -3822,7 +3822,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TEKA.svg",
       name: "Teka",
-      code: "TEKA",
+      ticker_symbol_prefix: "TEKA",
       code_cvm: "11223",
       description: "Fabricação de artigos de Cama, Mesa e Banho.",
       cnpj: "82636986000155",
@@ -3833,7 +3833,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/TCNO.svg",
       name: "Tecnosolo",
-      code: "TCNO",
+      ticker_symbol_prefix: "TCNO",
       code_cvm: "11207",
       description: "Atua com serviços no setor de construção pesada, consultoria e engenharia.",
       cnpj: "33111246000190",
@@ -3844,7 +3844,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MAPT.svg",
       name: "Cemepe Investimentos",
-      code: "MAPT",
+      ticker_symbol_prefix: "MAPT",
       code_cvm: "13854",
       description: "Holding",
       cnpj: "93828986000173",
@@ -3855,7 +3855,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/FRTA.svg",
       name: "Pomi Frutas",
-      code: "FRTA",
+      ticker_symbol_prefix: "FRTA",
       code_cvm: "19658",
       description: "Produz e comercializa maçãs in natura e processadas, sendo pioneira nesse negócio no Brasil.",
       cnpj: "86550951000150",
@@ -3866,7 +3866,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/HETA.svg",
       name: "Hercules",
-      code: "HETA",
+      ticker_symbol_prefix: "HETA",
       code_cvm: "6629",
       description: "Atua na fabricação de cutelaria Premium, com linha de talheres, facas e utensílios para atender às sofisticadas exigências de chef’s de cozinha.",
       cnpj: "92749225000163",
@@ -3877,7 +3877,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CORR.svg",
       name: "Correa Ribeiro",
-      code: "CORR",
+      ticker_symbol_prefix: "CORR",
       code_cvm: "4863",
       description: "Na década de 2000, a controladora Correa Ribeiro Com e Ind passou a locar seus imóveis e ainda mantém essa atividade operacional como principal.",
       cnpj: "15101405000193",
@@ -3888,7 +3888,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/MMAQ.svg",
       name: "Minasmaquinas",
-      code: "MMAQ",
+      ticker_symbol_prefix: "MMAQ",
       code_cvm: "8818",
       description: "Comercializa a mais completa e moderna linha de veículos comerciais da Mercedes-Benz (caminhões, ônibus e sprinters).",
       cnpj: "17161241000115",
@@ -3899,7 +3899,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/BBML.svg",
       name: "BBM Logística",
-      code: "BBML",
+      ticker_symbol_prefix: "BBML",
       code_cvm: "24660",
       description: "É um dos maiores operadores logísticos do Brasil com foco em serviços de transporte rodoviário de cargas.",
       cnpj: "01107327000120",
@@ -3910,7 +3910,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/CTCA.svg",
       name: "CTC",
-      code: "CTCA",
+      ticker_symbol_prefix: "CTCA",
       code_cvm: "23981",
       description: "É uma empresa de biotecnologia que tem como principal objetivo a pesquisa, desenvolvimento e comercialização de variedades de cana-de-açúcar.",
       cnpj: "06981381000113",
@@ -3921,7 +3921,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PPAR.svg",
       name: "Polpar",
-      code: "PPAR",
+      ticker_symbol_prefix: "PPAR",
       code_cvm: "13447",
       description: "Sócia ou acionista, de quaisquer outras sociedades, principalmente no campo de papel e celulose.",
       cnpj: "59789545000171",
@@ -3932,7 +3932,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PSVM.svg",
       name: "Porto Sudeste",
-      code: "PSVM",
+      ticker_symbol_prefix: "PSVM",
       code_cvm: "23523",
       description: "É um porto privado, projetado exclusivamente para o carregamento de granéis sólidos e fica instalado na Ilha da Madeira, em Itaguaí (RJ).",
       cnpj: "18494485000182",
@@ -3943,7 +3943,7 @@ after :sectors, :countries do
     {
       icon: "/company/logo/PPLA.svg",
       name: "PPLA",
-      code: "PPLA",
+      ticker_symbol_prefix: "PPLA",
       code_cvm: "80152",
       description: "Holding de companhias que atuam como veículos de investimento.",
       cnpj: "15073274000188",

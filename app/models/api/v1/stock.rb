@@ -6,7 +6,7 @@ module Api
       belongs_to :asset
       belongs_to :company
 
-      validates :icon, :acronym, :stock_type, presence: true
+      validates :icon, :ticker_symbol, :stock_type, presence: true
      end
   end
 end

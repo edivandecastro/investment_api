@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
+ActiveRecord::Schema[7.0].define(version: 2023_09_02_165155) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pgcrypto"
   enable_extension "plpgsql"
@@ -25,7 +25,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
   create_table "companies", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "icon"
     t.string "name", null: false
-    t.string "code", null: false
+    t.string "ticker_symbol_prefix", null: false
     t.string "code_cvm"
     t.string "description", null: false
     t.string "cnpj", null: false
@@ -34,8 +34,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.uuid "sector_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["cnpj"], name: "index_companies_on_cnpj", unique: true
+    t.index ["code_cvm"], name: "index_companies_on_code_cvm", unique: true
     t.index ["country_id"], name: "index_companies_on_country_id"
     t.index ["sector_id"], name: "index_companies_on_sector_id"
+    t.index ["ticker_symbol_prefix"], name: "index_companies_on_ticker_symbol_prefix", unique: true
   end
 
   create_table "countries", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
@@ -54,7 +57,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
 
   create_table "stocks", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
     t.string "icon", null: false
-    t.string "acronym", null: false
+    t.string "ticker_symbol", null: false
     t.integer "stock_type", null: false
     t.string "isin"
     t.uuid "company_id", null: false
@@ -63,6 +66,14 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.datetime "updated_at", null: false
     t.index ["asset_id"], name: "index_stocks_on_asset_id"
     t.index ["company_id"], name: "index_stocks_on_company_id"
+    t.index ["isin"], name: "index_stocks_on_isin", unique: true
+    t.index ["ticker_symbol"], name: "index_stocks_on_ticker_symbol", unique: true
+  end
+
+  create_table "system_configurations", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
+    t.jsonb "settings"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "transactions", id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
@@ -83,6 +94,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_22_135509) do
     t.uuid "user_id", null: false
     t.string "investible_type", null: false
     t.uuid "investible_id", null: false
+    t.decimal "amount", null: false
     t.decimal "balance", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
