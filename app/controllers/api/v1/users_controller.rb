@@ -48,6 +48,15 @@ class Api::V1::UsersController < Api::V1::ApplicationController
     end
   end
 
+  def patrimony
+    begin
+      context = PatrimonyCalculation.call(user_id: params[:id])
+      render json: { total: context.balance }, status: :ok
+    rescue ServiceActor::Failure => e
+      render json: { errors: e.message }, status: :unprocessable_entity
+    end
+  end
+
   private
 
   def set_user

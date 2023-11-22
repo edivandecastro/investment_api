@@ -10,6 +10,7 @@ Rails.application.routes.draw do
         resources :stocks
 
         post 'position_import', on: :member
+        get 'patrimony', on: :member
       end
     end
   end
