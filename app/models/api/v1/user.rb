@@ -3,6 +3,15 @@ module Api
     class User < ApplicationRecord
       self.implicit_order_column = "created_at"
 
+      devise :database_authenticatable,
+             :registerable,
+             :recoverable,
+             :rememberable,
+             :validatable,
+             :confirmable,
+             :lockable,
+             :trackable
+
       validates :name, :email, :password, presence: true
     end
   end
