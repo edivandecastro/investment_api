@@ -14,6 +14,7 @@ gem "kaminari"
 gem "seedbank", "~> 0.5.0"
 gem "roo", "~> 2.10.0"
 gem "service_actor", "~> 3.7"
+gem "devise"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
