@@ -6,7 +6,7 @@ Rails.application.routes.draw do
       resources :sectors
       resources :stocks
       resources :user_assets
-      resources :users do
+      devise_for :user, class_name: Api::V1::User do
         resources :stocks
 
         post 'position_import', on: :member
