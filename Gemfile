@@ -16,6 +16,7 @@ gem "roo", "~> 2.10.0"
 gem "service_actor", "~> 3.7"
 gem "devise"
 gem "devise-i18n"
+gem "jwt"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
