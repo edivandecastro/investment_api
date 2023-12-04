@@ -20,7 +20,7 @@ module Api
           payload = {
             sub: user.id,
             exp: expiration_time,
-            iss: 'INVESTIMENT'
+            iss: 'INVESTMENT'
           }
 
           JWT.encode(payload, hmac_secret, ALGORITHMS_HMAC_HS256)
