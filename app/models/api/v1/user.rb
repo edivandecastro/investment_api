@@ -3,6 +3,8 @@ module Api
     class User < ApplicationRecord
       self.implicit_order_column = "created_at"
 
+      attr_accessor :jti
+
       devise :database_authenticatable,
              :registerable,
              :recoverable,
