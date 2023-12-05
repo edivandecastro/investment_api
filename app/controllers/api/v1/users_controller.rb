@@ -13,16 +13,6 @@ class Api::V1::UsersController < Api::V1::ApplicationController
     })
   end
 
-  def create
-    user = Api::V1::User.new(user_params)
-
-    if user.save
-      render json: user, root: :user
-    else
-      render json: { errors: user.errors }, status: :unprocessable_entity
-    end
-  end
-
   def show
     render json: @user, root: :user
   end
