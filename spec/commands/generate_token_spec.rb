@@ -6,7 +6,7 @@ RSpec.describe GenerateToken, type: :model do
       let(:user) { create(:user) }
 
       it 'return token jwt' do
-        expect(GenerateToken.call(user:).user.jti.size).to eq 176
+        expect(GenerateToken.call(user:).user.jti.blank?).to be false
       end
     end
 

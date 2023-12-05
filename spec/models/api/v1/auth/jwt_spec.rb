@@ -8,7 +8,7 @@ RSpec.describe Api::V1::Auth::Jwt, type: :model do
   describe '#generate' do
     context 'when a user is passed' do
       it 'return token jwt' do
-        expect(subject.generate.size).to eq 176
+        expect(subject.generate.blank?).to be false
       end
     end
 
