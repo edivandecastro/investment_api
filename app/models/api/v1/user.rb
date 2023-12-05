@@ -10,7 +10,7 @@ module Api
              :recoverable,
              :rememberable,
              :validatable,
-             :confirmable,
+             #:confirmable,
              :lockable,
              :trackable
 
