@@ -1,7 +1,7 @@
 databases:
   - name: investment_api
-    databaseName: investment_api_production
-    user: investment_api
+    databaseName: investment_api_production_wmhr_kj9s
+    user: edivandecastro
     plan: free
 services:
   - type: web
