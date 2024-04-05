@@ -14,7 +14,7 @@ gem "kaminari"
 gem "seedbank", "~> 0.5.0"
 gem "roo", "~> 2.10.0"
 gem "service_actor", "~> 3.7"
-gem "devise"
+gem "devise", "~> 4.2"
 gem "devise-i18n"
 gem "jwt"
 
