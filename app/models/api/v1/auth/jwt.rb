@@ -5,6 +5,7 @@ module Api
         attr_accessor :token, :user
 
         ALGORITHMS_HMAC_HS256 = 'HS256'
+        HMAC_SECRET = Rails.application.credentials.jwt.secret
 
         def initialize(token: nil, user: nil)
           @token = token
@@ -14,8 +15,6 @@ module Api
         def generate
           raise Errors::GenerateToken::NotFoundUserError.new if user.nil?
 
-          hmac_secret = Rails.application.credentials.jwt_secret
-
           expiration_time = Time.now.to_i + 4 * 3600
           payload = {
             sub: user.id,
@@ -23,23 +22,23 @@ module Api
             iss: 'INVESTMENT'
           }
 
-          JWT.encode(payload, hmac_secret, ALGORITHMS_HMAC_HS256)
+          JWT.encode(payload, HMAC_SECRET, ALGORITHMS_HMAC_HS256)
         end
 
         def validate
-          hmac_secret = ENV.fetch('JWT_SECRET')
+          JWT.decode(token, HMAC_SECRET, true, { verify_iss: true, algorithm: 'HS256' })
 
-          begin
-            JWT.decode(token, hmac_secret, true, { verify_iss: true, algorithm: 'HS256' })
+          { valid: true, token: token }
+        rescue JWT::ExpiredSignature
+          { valid: false, error: I18n.t('general.expired_token') }
+        rescue JWT::InvalidIssuerError
+          { valid: false, error: I18n.t('general.invalid_issuer') }
+        rescue JWT::DecodeError
+          { valid: false, error: I18n.t('general.decode_error') }
+        end
 
-            { valid: true, token: token }
-          rescue JWT::ExpiredSignature
-            { valid: false, error: I18n.t('general.expired_token') }
-          rescue JWT::InvalidIssuerError
-            { valid: false, error: I18n.t('general.invalid_issuer') }
-          rescue JWT::DecodeError
-            { valid: false, error: I18n.t('general.decode_error') }
-          end
+        def decode
+          JWT.decode(token, HMAC_SECRET, true, { verify_iss: true, algorithm: 'HS256' })
         end
       end
     end
