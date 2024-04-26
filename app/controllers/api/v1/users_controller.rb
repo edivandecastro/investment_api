@@ -31,7 +31,7 @@ class Api::V1::UsersController < Api::V1::ApplicationController
 
   def position_import
     begin
-      context = ImportPositionInStock.call(document: params[:document], user_id: params[:id])
+      context = ImportPositionInStock.call(document: params[:document], user_id: user_id_in_token)
       render json: { success: context.success? }, status: :ok
     rescue ServiceActor::Failure => e
       render json: { errors: e.message }, status: :unprocessable_entity
@@ -40,7 +40,7 @@ class Api::V1::UsersController < Api::V1::ApplicationController
 
   def patrimony
     begin
-      context = PatrimonyCalculation.call(user_id: params[:id])
+      context = PatrimonyCalculation.call(user_id: user_id_in_token)
       render json: { total: context.balance }, status: :ok
     rescue ServiceActor::Failure => e
       render json: { errors: e.message }, status: :unprocessable_entity
