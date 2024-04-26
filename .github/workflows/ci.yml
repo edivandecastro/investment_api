@@ -21,6 +21,9 @@ jobs:
           POSTGRES_PASSWORD: "postgres"
         ports: ["5432:5432"]
 
+    env:
+      RAILS_MASTER_KEY: ${{ secrets.RAILS_MASTER_KEY }}
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
