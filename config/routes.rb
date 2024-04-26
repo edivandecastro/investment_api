@@ -13,6 +13,7 @@ Rails.application.routes.draw do
         collection do
           post 'position_import'
           get 'patrimony'
+          get 'stocks'
         end
       end
     end

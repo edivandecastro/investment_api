@@ -47,6 +47,18 @@ class Api::V1::UsersController < Api::V1::ApplicationController
     end
   end
 
+  def stocks
+    stocks = Api::V1::UserAsset.where(user_id: user_id_in_token).page(params[:page]).per(params[:limit])
+
+    render({
+      json: stocks,
+      root: :user_stocks,
+      each_serializer: Api::V1::UserAssetSerializer,
+      meta: meta_attributes(stocks),
+      meta_key: "metadata"
+    })
+  end
+
   private
 
   def set_user
