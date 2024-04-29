@@ -7,7 +7,7 @@ RSpec.describe 'Api::V1::StocksController', type: :request do
       let!(:user_stock) { create(:user_asset) }
 
       it 'return list of stock of user' do
-        get api_v1_stocks_path(user_stock.user.id)
+        get_with_token api_v1_stocks_path(user_stock.user.id)
         result = JSON.parse(response.body, symbolize_names: true)[:stocks].any?
 
         expect(response).to be_successful
@@ -19,8 +19,7 @@ RSpec.describe 'Api::V1::StocksController', type: :request do
       let!(:stock) { create(:stock) }
 
       it 'return list of stocks' do
-        get api_v1_stocks_path
-
+        get_with_token api_v1_stocks_path
         stock_result = JSON.parse(response.body, symbolize_names: true)[:stocks]
         stock_result.map! { |stock| stock[:id] }
 
