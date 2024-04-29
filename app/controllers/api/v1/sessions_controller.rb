@@ -2,6 +2,8 @@ module Api
   module V1
     class SessionsController < Api::V1::ApplicationController
 
+      skip_before_action :validate_access_token, only: [:create]
+
       def create
         user = User.find_by(email: user_params[:email])
         authenticator = UserAuthentication.call(user:, password:)
