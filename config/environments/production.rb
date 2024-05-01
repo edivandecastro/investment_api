@@ -1,7 +1,7 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
-  config.hosts << "investment-api-3vvw.onrender.com"
+  config.hosts << "investment-api-4fni.onrender.com"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
