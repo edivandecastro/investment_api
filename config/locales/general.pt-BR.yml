@@ -1,0 +1,6 @@
+pt-BR:
+  general:
+    malformed_token: 'Token mal formado'
+    expired_token: 'Token expirado'
+    invalid_issuer: 'O token não foi gerado por invest api'
+    decode_error: 'Token fora do padrão JWT ou mal formado'

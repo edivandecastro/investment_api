@@ -8,7 +8,7 @@ class Api::V1::StocksController < Api::V1::ApplicationController
       json: stocks,
       root: root_key,
       each_serializer: serialize_class,
-      meta: meta_attributes(stocks),
+      meta: meta_attributes(stocks).merge(depreciated),
       meta_key: "metadata"
     })
   end
@@ -40,6 +40,11 @@ class Api::V1::StocksController < Api::V1::ApplicationController
   end
 
   private
+
+  def depreciated
+    return {} if params[:user_id].nil?
+    { depreciated: "Este endpoint foi depreciado. Recomenda-se usar o novo endpoint /users/stocks" }
+  end
 
   def serialize_class
     return Api::V1::StockSerializer if params[:user_id].nil?

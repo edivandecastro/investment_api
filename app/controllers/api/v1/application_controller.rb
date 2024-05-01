@@ -1,6 +1,20 @@
 class Api::V1::ApplicationController < ApplicationController
 
+  before_action :validate_access_token
+
   private
+
+  def validate_access_token
+    TokenValidation.call(authorization: request.headers['Authorization'])
+  rescue ServiceActor::Failure => error
+    render json: { success: false, errors: [error.message] }, status: :unauthorized
+  end
+
+  def user_id_in_token
+    token = request.headers['Authorization'].gsub('Bearer ', '')
+    payload = Api::V1::Auth::Jwt.new(token:).decode.first
+    payload["sub"]
+  end
 
   def meta_attributes(collection, extra_meta = {})
     {
