@@ -3,20 +3,43 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.3.0"
 
-gem "rails", "~> 7.1.3.2"
-gem "pg", "~> 1.1"
-gem "puma", "~> 5.0"
-gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
-gem "bootsnap", require: false
-gem "rack-cors"
-gem "active_model_serializers", "~> 0.10.13"
-gem "kaminari"
-gem "seedbank", "~> 0.5.0"
-gem "roo", "~> 2.10.0"
-gem "service_actor", "~> 3.7"
-gem "devise", "~> 4.2"
-gem "devise-i18n"
-gem "jwt"
+group :framework, :default do
+  gem "bootsnap", require: false
+  gem "puma", "~> 5.0"
+  gem "rails", "~> 7.1.3.2"
+end
+
+group :db, :default do
+  gem "pg", "~> 1.1"
+  gem "seedbank", "~> 0.5.0"
+end
+
+group :api_builder, :default do
+  gem "rack-cors"
+  gem "active_model_serializers", "~> 0.10.13"
+end
+
+group :pagination, :default do
+  gem "kaminari"
+end
+
+group :report, :default do
+  gem "roo", "~> 2.10.0"
+end
+
+group :authentication, :default do
+  gem "devise", "~> 4.2"
+  gem "devise-i18n"
+  gem "jwt"
+end
+
+group :business_logic, :default do
+  gem "service_actor", "~> 3.7"
+end
+
+group :others, :default do
+  gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
+end
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
