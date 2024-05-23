@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   namespace :api do
+    mount Rswag::Ui::Engine => '/api-docs'
+    mount Rswag::Api::Engine => '/api-docs'
+
     namespace :v1 do
       devise_for :user, class_name: Api::V1::User
       resources :countries
