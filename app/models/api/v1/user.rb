@@ -14,7 +14,7 @@ module Api
              :lockable,
              :trackable
 
-      validates :name, :email, :password, presence: true
+      validates :name, presence: true
     end
   end
 end
