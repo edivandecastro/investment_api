@@ -18,16 +18,85 @@ RSpec.configure do |config|
     'v1/swagger.yaml' => {
       openapi: '3.0.1',
       info: {
-        title: 'API V1',
-        version: 'v1'
+        title: 'Investment API',
+        version: 'v1',
+        description: 'Esta página contém a documentação de como utilizar os endpoints de Investment APIs'
       },
-      paths: {},
+      security: [
+        { bearerAuth: [] }
+      ],
+      components: {
+        securitySchemes: {
+          bearerAuth: {
+            type: :http,
+            scheme: :bearer,
+            bearerFormat: 'JWT',
+            description: 'Autorizar com o email e senha gerado em área logada'
+          }
+        },
+        schemas: {
+          user_response_object: {
+            type: :object,
+            properties: {
+              user: {
+                type: :object,
+                properties: {
+                  id: { type: :string, format: :uuid },
+                  name: { type: :string, example: 'The Butcher'  },
+                  email: { type: :string, example: 'sam_marks@marvin-borer.test' },
+                  token: { type: :string, nullable: true, default: nil },
+                  created_at: { type: :string, format: :date },
+                  updated_at: { type: :string, format: :date }
+                }
+              }
+            }
+          },
+          user_response_error_object: {
+            type: :object,
+            properties: {
+              errors: {
+                type: :object,
+                properties: {
+                  name: {
+                    type: :array,
+                    items: { type: :string }
+                  },
+                  email: {
+                    type: :array,
+                    items: { type: :string }
+                  },
+                  password: {
+                    type: :array,
+                    items: { type: :string }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       servers: [
         {
-          url: 'https://{defaultHost}',
+          url: 'https://{enviroment}',
           variables: {
-            defaultHost: {
-              default: 'www.example.com'
+            enviroment: {
+              default: 'investment-api-4fni.onrender.com',
+              description: 'Ambiente online para utilizar a API',
+              enum: [
+                'investment-api-4fni.onrender.com'
+              ]
+            }
+          }
+        },
+        {
+          url: 'http://{enviroment}',
+          variables: {
+            enviroment: {
+              default: 'localhost:3000',
+              description: 'Ambiente local para utilizar a API',
+              enum: [
+                'localhost:3000'
+              ]
             }
           }
         }
