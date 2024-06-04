@@ -7,7 +7,7 @@ module Api
         user = Api::V1::User.new(user_params)
 
         if user.save
-          render json: user, root: :user
+          render json: user, root: :user, status: :created
         else
           render json: { errors: user.errors }, status: :unprocessable_entity
         end
