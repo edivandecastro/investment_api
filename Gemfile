@@ -14,6 +14,12 @@ group :db, :default do
   gem "seedbank", "~> 0.5.0"
 end
 
+group :documentation, :default do
+  gem "rswag"
+  gem "rswag-api"
+  gem "rswag-ui"
+end
+
 group :api_builder, :default do
   gem "rack-cors"
   gem "active_model_serializers", "~> 0.10.13"

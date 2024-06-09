@@ -1,0 +1,136 @@
+---
+openapi: 3.0.1
+info:
+  title: Investment API
+  version: v1
+  description: Esta página contém a documentação de como utilizar os endpoints de
+    Investment APIs
+security:
+- bearerAuth: []
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: Autorizar com o email e senha gerado em área logada
+  schemas:
+    user_response_object:
+      type: object
+      properties:
+        user:
+          type: object
+          properties:
+            id:
+              type: string
+              format: uuid
+            name:
+              type: string
+              example: The Butcher
+            email:
+              type: string
+              example: sam_marks@marvin-borer.test
+            token:
+              type: string
+              nullable: true
+              default: 
+            created_at:
+              type: string
+              format: date
+            updated_at:
+              type: string
+              format: date
+    user_response_error_object:
+      type: object
+      properties:
+        errors:
+          type: object
+          properties:
+            name:
+              type: array
+              items:
+                type: string
+            email:
+              type: array
+              items:
+                type: string
+            password:
+              type: array
+              items:
+                type: string
+servers:
+- url: https://{enviroment}
+  variables:
+    enviroment:
+      default: investment-api-4fni.onrender.com
+      description: Ambiente online para utilizar a API
+      enum:
+      - investment-api-4fni.onrender.com
+- url: http://{enviroment}
+  variables:
+    enviroment:
+      default: localhost:3000
+      description: Ambiente local para utilizar a API
+      enum:
+      - localhost:3000
+paths:
+  "/api/v1/user":
+    post:
+      summary: Cadastra um usuário
+      tags:
+      - Users
+      parameters: []
+      responses:
+        '201':
+          description: usuário criado com sucesso
+          content:
+            application/json:
+              schema:
+                "$ref": "#/components/schemas/user_response_object"
+        '422':
+          description: valores em branco ou vazios
+          content:
+            application/json:
+              examples:
+                taken_email:
+                  value:
+                    errors:
+                      email:
+                      - já está em uso
+                blank_email:
+                  value:
+                    errors:
+                      email:
+                      - não pode ficar em branco
+                blank_password:
+                  value:
+                    errors:
+                      password:
+                      - não pode ficar em branco
+                blank_name:
+                  value:
+                    errors:
+                      name:
+                      - não pode ficar em branco
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                      example: The Butcher
+                    email:
+                      type: string
+                      example: sam_marks@marvin-borer.test
+                    password:
+                      type: string
+                      example: '123456'
+              required:
+              - name
+              - email
+              - password
